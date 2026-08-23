@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -506,6 +524,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
@@ -523,6 +542,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "warning",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
@@ -542,9 +562,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -1566,50 +1589,6 @@
     [
       "6f265469-f192-4572-9c82-34d6b1e96d25",
       "ADC Driver 1"
-    ],
-    [
-      "acf35bbb-eab3-4fe2-9379-513f16ebe8c9",
-      "Front End Trim and Bias"
-    ],
-    [
-      "9a43e052-ab3a-4eb2-8617-8e5430b531e4",
-      "ADC"
-    ],
-    [
-      "5b9d4801-a91b-4563-ba0d-f8916f550354",
-      "Clock Generator"
-    ],
-    [
-      "ed55ca86-b434-4533-9cc2-1facf1ee6c7b",
-      "ACQ and FE Voltage Regs"
-    ],
-    [
-      "0f922f52-a6e9-41f0-8991-df4889546a95",
-      "FPGA"
-    ],
-    [
-      "3dc749f1-bb54-4961-a356-74c6bb9263ea",
-      "FPGA IO Banks"
-    ],
-    [
-      "9e3a6ae2-4fbe-4717-950b-8a09c623e35a",
-      "FPGA Config and Transceivers"
-    ],
-    [
-      "038472ca-999a-4bdd-b362-e2f5a3e05e32",
-      "FPGA Power Inputs"
-    ],
-    [
-      "578d4253-e95a-4587-beab-a07f275c1e48",
-      "FPGA Voltage Regs"
-    ],
-    [
-      "95dd7985-f010-4388-84bb-3ad8f1a365a2",
-      "TS-PCIe Components"
-    ],
-    [
-      "1740d22d-1854-48db-a246-157789f9c7e2",
-      "TS-USB4 Components"
     ]
   ],
   "text_variables": {

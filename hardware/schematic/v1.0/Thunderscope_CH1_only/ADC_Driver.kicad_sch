@@ -11,6 +11,834 @@
 		(comment 1 "Aleksa Bjelogrlic")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Counter:ADCMP573"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 9.144 9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ADCMP573"
+				(at 9.652 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.3x1.3mm"
+				(at 2.794 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADCMP573_0_1"
+				(rectangle
+					(start 0 0)
+					(end 20.32 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ADCMP573_1_1"
+				(pin input line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "VTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "VTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -22.86 90)
+					(length 2.54)
+					(name "VCCI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -22.86 90)
+					(length 2.54)
+					(name "nLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -22.86 90)
+					(length 2.54)
+					(name "LE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -22.86 90)
+					(length 2.54)
+					(name "VCCO/VTT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -13.97 180)
+					(length 2.54)
+					(name "VCCO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -11.43 180)
+					(length 2.54)
+					(name "nQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -8.89 180)
+					(length 2.54)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -6.35 180)
+					(length 2.54)
+					(name "VCCO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 2.54 270)
+					(length 2.54)
+					(name "HYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 2.54 270)
+					(length 2.54)
+					(name "VCCI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Counter:SN65LVDS20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 6.604 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN65LVDS20"
+				(at 6.604 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN65LVDS20_0_1"
+				(rectangle
+					(start 0 0)
+					(end 13.97 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN65LVDS20_1_1"
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "VBB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "nEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Thunderscope_Rev5:+3V3_ACQ_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -572,6 +1400,189 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Thunderscope_Rev5:FERRITE BEAD 120 OHM 0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "120@100MHZ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0402 (1005 Metric) 2A 55mOhm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER 1" "Mouser"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "81-BLM15PX121SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "HOUSE PART NUMBER" "BLM15PX121SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER PART NUMBER" "BLM15PX121SN1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PACKAGE" "0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FERRITE BEAD 120 OHM 0402_1_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 -1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 4.445)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 4.445)
 					(name "2"
 						(effects
 							(font
@@ -1849,98 +2860,248 @@
 		(uuid "047348be-d2b4-4d9f-b06a-0ef4075b448b")
 	)
 	(junction
-		(at 147.32 81.28)
+		(at 143.51 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b6f90a7-544a-448b-b659-fa5e9b3e1651")
 	)
 	(junction
-		(at 147.32 93.98)
+		(at 143.51 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d2a9efc-3eea-4069-b7e9-40386f68557c")
 	)
 	(junction
-		(at 180.34 116.84)
+		(at 176.53 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22284c4b-8d90-456b-b5eb-ebf0c8de7d3f")
 	)
 	(junction
-		(at 116.84 114.3)
+		(at 142.24 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b0de6d-64de-4beb-8de8-fc9482825a9a")
+	)
+	(junction
+		(at 113.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "284a01d0-bbbc-432e-a9ed-8b33356939e0")
 	)
 	(junction
-		(at 134.62 114.3)
+		(at 130.81 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b08e7b0-7edd-4e67-8972-e89f15923332")
 	)
 	(junction
-		(at 172.72 93.98)
+		(at 168.91 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d0d1c21-5230-4577-b4aa-07355fad3282")
 	)
 	(junction
-		(at 172.72 124.46)
+		(at 168.91 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40f7e673-a771-4190-a2e3-bd10bde9d6a0")
 	)
 	(junction
-		(at 134.62 104.14)
+		(at 204.47 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "426063e3-87f1-424a-88e9-b68e2028f218")
+	)
+	(junction
+		(at 135.89 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "435e00c9-2d4f-4151-bb2d-2ec07fb6c032")
+	)
+	(junction
+		(at 226.06 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46864cbc-3eaa-424f-ad26-0f59017b7c7a")
+	)
+	(junction
+		(at 232.41 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "567df5dd-2b7b-4b60-af27-71f8421e3f0d")
+	)
+	(junction
+		(at 130.81 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e96013e-a562-4bc1-8273-51e0969d0167")
 	)
 	(junction
-		(at 121.92 81.28)
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654f58ea-9459-41be-ad26-09f5a2506de3")
+	)
+	(junction
+		(at 118.11 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65af6390-2ff3-4f37-8b2d-84f83dfaac6e")
 	)
 	(junction
-		(at 116.84 104.14)
+		(at 156.21 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a4e4eb5-aa45-4187-95f0-ace55d687b3b")
+	)
+	(junction
+		(at 142.24 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e7a79c3-65ec-4e67-bdcb-8344bfaef44e")
+	)
+	(junction
+		(at 142.24 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81e4a9a0-d1d0-4515-a00e-711d9338700f")
+	)
+	(junction
+		(at 189.23 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8454135a-65de-47d2-b34b-95db0a8bcf4b")
+	)
+	(junction
+		(at 147.32 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d82c19b-c802-4295-b508-a22016caa61d")
+	)
+	(junction
+		(at 132.08 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d8c95dc-2258-431c-bff8-fa7b26c0d227")
+	)
+	(junction
+		(at 120.65 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92356f60-e031-4b10-a06c-37d71f880a7a")
+	)
+	(junction
+		(at 113.03 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97c475a0-a9f7-4688-bded-9e56eeea2580")
 	)
 	(junction
-		(at 172.72 127)
+		(at 168.91 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98f30935-a14d-429c-92ef-8a3fdaa4dfe5")
 	)
 	(junction
-		(at 147.32 127)
+		(at 232.41 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4d9337-0c4f-4f9b-93f9-d9cd7131b61d")
+	)
+	(junction
+		(at 143.51 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b21a69f-cfa1-46db-b9fe-bdd6e9a45ad7")
 	)
 	(junction
-		(at 134.62 81.28)
+		(at 130.81 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e8a749-4317-4987-ae4d-1eb9ddd09fba")
 	)
 	(junction
-		(at 109.22 81.28)
+		(at 172.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae89e542-12df-41c8-90fc-d187c97ab2cf")
+	)
+	(junction
+		(at 125.73 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99fa4db-397f-4955-96a5-dc8145849ade")
+	)
+	(junction
+		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be1d3b56-5601-4805-9051-20e4502690b5")
 	)
 	(junction
-		(at 172.72 96.52)
+		(at 226.06 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8473806-5e4c-4a14-ad1f-8d5e0a8d553f")
+	)
+	(junction
+		(at 120.65 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb37e644-a624-4080-a9ec-8d7c6addb071")
+	)
+	(junction
+		(at 147.32 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3241022-efbc-48d9-b46c-72efb442a622")
+	)
+	(junction
+		(at 168.91 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcfc8735-97ca-449d-9caa-0fa97adf71f0")
 	)
+	(no_connect
+		(at 111.76 134.62)
+		(uuid "0c8bd6e9-57e6-48f7-8a69-c5b12dbde4a4")
+	)
+	(no_connect
+		(at 111.76 142.24)
+		(uuid "1ab15e8e-64fc-44d2-a3f6-c2d025142b80")
+	)
+	(no_connect
+		(at 181.61 134.62)
+		(uuid "6149aa47-42a1-46bb-9826-a643c855ffa8")
+	)
+	(no_connect
+		(at 123.19 151.13)
+		(uuid "ab3e974b-b70e-4314-8a13-bad7cfba5d38")
+	)
 	(wire
 		(pts
-			(xy 170.18 124.46) (xy 172.72 124.46)
+			(xy 220.98 133.35) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06531d3a-d76b-4eec-8331-f6ea8599a21c")
+	)
+	(wire
+		(pts
+			(xy 120.65 151.13) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0947434c-3a8f-4786-82f5-0c9a9d490fc5")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 172.72 93.98)
+			(xy 166.37 50.8) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 172.72 101.6)
+			(xy 168.91 53.34) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +3131,37 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 132.08 114.3)
+			(xy 201.93 123.19) (xy 204.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbbb39c-3a0e-4679-b2a0-4ec48a7bed46")
+	)
+	(wire
+		(pts
+			(xy 156.21 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103e0a09-0d5c-41ec-9131-beab089ae457")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1262f986-31ca-46f2-b26d-b847fad6562b")
+	)
+	(wire
+		(pts
+			(xy 130.81 71.12) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 172.72 93.98)
+			(xy 168.91 53.34) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +3181,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 149.86 127)
+			(xy 135.89 125.73) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1874d08d-1096-43cc-aa8a-3ca38b0ddd6e")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 237.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1981d948-d618-494c-8bfe-a68217e0db87")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 149.86 106.68)
+			(xy 130.81 63.5) (xy 146.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +3221,67 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 147.32 81.28)
+			(xy 125.73 120.65) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea8355b-ebba-4ced-be81-290d079076ad")
+	)
+	(wire
+		(pts
+			(xy 132.08 163.83) (xy 142.24 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211a1dd4-f4c2-46d4-9203-6f9bfe51b4fb")
+	)
+	(wire
+		(pts
+			(xy 125.73 163.83) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2538e13b-daa1-4d70-add4-3b1da9866fd1")
+	)
+	(wire
+		(pts
+			(xy 200.66 139.7) (xy 208.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254d1c9c-521f-4bb6-9235-982ec165ff24")
+	)
+	(wire
+		(pts
+			(xy 226.06 143.51) (xy 232.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a00e82-d2eb-4ef1-aa36-4766004860b2")
+	)
+	(wire
+		(pts
+			(xy 110.49 132.08) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d577b28-d9ec-4fae-9f81-20a50d45876e")
+	)
+	(wire
+		(pts
+			(xy 130.81 38.1) (xy 143.51 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 149.86 93.98)
+			(xy 143.51 50.8) (xy 146.05 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +3301,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 124.46) (xy 147.32 127)
+			(xy 208.28 139.7) (xy 208.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e28066b-9d89-488d-941d-67de48c42c3a")
+	)
+	(wire
+		(pts
+			(xy 220.98 143.51) (xy 226.06 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d59a97-e1cb-4b4b-a0b1-dc2acfc6c81e")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 143.51 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +3331,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 147.32 129.54)
+			(xy 162.56 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d57062-2121-4122-86d7-d3b00fad5c75")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 143.51 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +3351,17 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 172.72 111.76)
+			(xy 208.28 135.89) (xy 210.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e28a16-6cc3-4787-a2bb-d6538c54511c")
+	)
+	(wire
+		(pts
+			(xy 166.37 68.58) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +3371,47 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 116.84) (xy 149.86 116.84)
+			(xy 137.16 134.62) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d44100a-1fa1-4cbb-ab48-dce6ab6b3d8e")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9904a9-021c-43f7-9235-04c5435c277f")
+	)
+	(wire
+		(pts
+			(xy 142.24 115.57) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43488adf-3339-46c9-b0bd-2b9d49af5b2b")
+	)
+	(wire
+		(pts
+			(xy 156.21 125.73) (xy 156.21 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442496e0-f38a-4980-bd64-085c42801133")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 146.05 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +3421,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 134.62 106.68)
+			(xy 200.66 132.08) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4573610b-cbef-4188-86ea-0b6710300314")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 130.81 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 134.62 116.84)
+			(xy 133.35 73.66) (xy 130.81 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 116.84) (xy 134.62 114.3)
+			(xy 130.81 73.66) (xy 130.81 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 121.92 114.3)
+			(xy 113.03 71.12) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 172.72 127)
+			(xy 168.91 81.28) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 134.62 104.14)
+			(xy 130.81 58.42) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +3491,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 147.32 96.52)
+			(xy 128.27 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ee5fe2-df96-45c4-a50a-e83bdcd73f9c")
+	)
+	(wire
+		(pts
+			(xy 102.87 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53af2cd3-9613-41cd-8174-1b87624344ab")
+	)
+	(wire
+		(pts
+			(xy 143.51 50.8) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +3521,47 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 172.72 106.68)
+			(xy 220.98 140.97) (xy 220.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bf6934-39df-47df-9fcf-67e7cb01d4a2")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584145a0-2f21-4864-a8bf-ea364a92b592")
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7) (xy 147.32 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5932dc98-f653-4167-a1f2-3f2c838f6b36")
+	)
+	(wire
+		(pts
+			(xy 220.98 135.89) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597dd91a-b65d-4173-8cb9-00f12864f3cd")
+	)
+	(wire
+		(pts
+			(xy 166.37 63.5) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +3571,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 121.92) (xy 172.72 121.92)
+			(xy 166.37 78.74) (xy 168.91 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 134.62 104.14)
+			(xy 128.27 60.96) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +3591,37 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 149.86 101.6)
+			(xy 142.24 142.24) (xy 142.24 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652e6c41-0157-486a-b075-686b89a59156")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 196.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66185533-9ee3-4323-94b3-ccf868638bc3")
+	)
+	(wire
+		(pts
+			(xy 162.56 157.48) (xy 162.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66573c8e-ebf5-43ab-93f4-aaeb741d14a7")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +3631,47 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 134.62 101.6)
+			(xy 156.21 137.16) (xy 181.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd497ae-58fe-4f21-afb9-303ced54b76e")
+	)
+	(wire
+		(pts
+			(xy 189.23 127) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e12b70c-cacf-424a-96b4-121d41963439")
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7) (xy 181.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e54ba37-a1ce-4eb0-8df0-61b91a68c938")
+	)
+	(wire
+		(pts
+			(xy 120.65 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9a717f-e55f-4963-8f5e-a1a8c4ea7b73")
+	)
+	(wire
+		(pts
+			(xy 133.35 58.42) (xy 130.81 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +3681,37 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 111.76) (xy 185.42 111.76)
+			(xy 172.72 142.24) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c57ab3-cbf0-464b-bc06-2e3125b32ed1")
+	)
+	(wire
+		(pts
+			(xy 232.41 133.35) (xy 240.03 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7481036b-774c-490c-806c-8d80be13b85e")
+	)
+	(wire
+		(pts
+			(xy 95.25 139.7) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776de720-bbd2-4623-8579-b7ed15509881")
+	)
+	(wire
+		(pts
+			(xy 179.07 68.58) (xy 191.77 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +3721,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 109.22 81.28)
+			(xy 100.33 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2210,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 127) (xy 172.72 127)
+			(xy 166.37 83.82) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +3741,47 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68) (xy 182.88 106.68)
+			(xy 189.23 123.19) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1ccc79-b705-4378-a098-b3d76658bac3")
+	)
+	(wire
+		(pts
+			(xy 125.73 152.4) (xy 125.73 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e6dac8-66a2-4e87-8bbd-852b683b35f2")
+	)
+	(wire
+		(pts
+			(xy 237.49 148.59) (xy 237.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fd9b07-467c-4647-a9e8-d8cb8b9842ce")
+	)
+	(wire
+		(pts
+			(xy 237.49 143.51) (xy 232.41 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b3a7b6-42c2-4d57-b941-717ec5572b15")
+	)
+	(wire
+		(pts
+			(xy 179.07 63.5) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 172.72 81.28)
+			(xy 168.91 50.8) (xy 168.91 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2240,7 +3801,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 147.32 93.98)
+			(xy 185.42 113.03) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0d5070-a34a-4f0a-96c2-c84e2f77e2dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903ea7a1-292c-48ae-bc73-8c02916fb16b")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +3831,67 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 121.92) (xy 172.72 124.46)
+			(xy 185.42 116.84) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9650a7ce-390d-4d82-8a89-be822cd9ec89")
+	)
+	(wire
+		(pts
+			(xy 132.08 163.83) (xy 125.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9669dce8-edd5-4491-8b85-0267b938ac22")
+	)
+	(wire
+		(pts
+			(xy 200.66 116.84) (xy 204.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f87624-47ef-4cf9-9080-103feb2f1bea")
+	)
+	(wire
+		(pts
+			(xy 128.27 151.13) (xy 128.27 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985848b4-5d74-452e-a898-e38ee5dad48f")
+	)
+	(wire
+		(pts
+			(xy 147.32 151.13) (xy 147.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992df53c-79dc-4a81-bb85-ca690a6eeb08")
+	)
+	(wire
+		(pts
+			(xy 156.21 151.13) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b76536c-4b5b-4be0-97fa-69ba142b19b1")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 172.72 81.28)
+			(xy 143.51 38.1) (xy 168.91 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2270,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 180.34 116.84)
+			(xy 166.37 73.66) (xy 176.53 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2280,7 +3921,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 172.72 96.52)
+			(xy 142.24 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5f0ce8-6236-42de-97cd-b4e79c2a47e8")
+	)
+	(wire
+		(pts
+			(xy 208.28 137.16) (xy 208.28 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf26e65-403a-4b9d-8770-405d48b545cd")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 168.91 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2290,7 +3951,47 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 121.92 81.28)
+			(xy 200.66 142.24) (xy 200.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06ff6f3-3ff8-42cc-9d52-85dd73efe0c0")
+	)
+	(wire
+		(pts
+			(xy 186.69 123.19) (xy 189.23 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cccd5b-6eef-4870-bfcd-75e3d57f7e73")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fb8e98-ea6b-4bff-b487-5bfbab37e355")
+	)
+	(wire
+		(pts
+			(xy 123.19 123.19) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e03131-0b6a-4aea-88b6-909c93909e26")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 118.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2300,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 147.32 96.52)
+			(xy 146.05 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +4011,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 172.72 101.6)
+			(xy 147.32 125.73) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93f0cbc-6b4d-4366-89cb-85434a21647e")
+	)
+	(wire
+		(pts
+			(xy 200.66 127) (xy 189.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd10e83f-853d-4093-a7fc-e6effe94369d")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 149.86 111.76)
+			(xy 130.81 68.58) (xy 146.05 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +4051,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 116.84 104.14)
+			(xy 125.73 162.56) (xy 125.73 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1548c8e-e3d9-4c9b-afa7-f31443d81c9a")
+	)
+	(wire
+		(pts
+			(xy 107.95 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +4071,47 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 104.14 81.28)
+			(xy 204.47 134.62) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50a63b3-f3b0-40f6-9ebf-b978b0e642a0")
+	)
+	(wire
+		(pts
+			(xy 156.21 137.16) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c837e577-53a6-4861-991e-921638bb2b57")
+	)
+	(wire
+		(pts
+			(xy 156.21 135.89) (xy 156.21 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fb99ee-9a81-4fb1-90c2-f5b508993b3f")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9949477-748e-41d1-94ec-be959f9059cf")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 100.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2350,7 +4121,57 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 127) (xy 172.72 129.54)
+			(xy 147.32 135.89) (xy 147.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d097555c-f15b-472a-acc7-4faf7b8c5344")
+	)
+	(wire
+		(pts
+			(xy 204.47 123.19) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d387303e-9901-4ed5-95d8-32704e43a0bb")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 147.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e7fffa-5b69-430a-a8aa-e10d3c7f4d94")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d706b3f6-cd87-4005-a261-df5df98a98e6")
+	)
+	(wire
+		(pts
+			(xy 128.27 157.48) (xy 162.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d892a629-386d-4ef8-88d2-508b8c33cfeb")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2360,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 180.34 119.38)
+			(xy 176.53 73.66) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2370,7 +4191,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 121.92 104.14)
+			(xy 200.66 137.16) (xy 208.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc67e211-fa4d-4062-a264-5884015b5330")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 81.28) (xy 134.62 81.28)
+			(xy 118.11 38.1) (xy 130.81 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +4221,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 124.46) (xy 147.32 124.46)
+			(xy 208.28 140.97) (xy 210.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c5e408-8050-4835-8fc3-a83d3a864f85")
+	)
+	(wire
+		(pts
+			(xy 146.05 81.28) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2400,7 +4241,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 116.84 114.3)
+			(xy 204.47 116.84) (xy 204.47 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea071866-6a90-4131-8ff8-27b62d0f2c3c")
+	)
+	(wire
+		(pts
+			(xy 107.95 71.12) (xy 113.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2410,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 116.84) (xy 185.42 116.84)
+			(xy 176.53 73.66) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +4271,27 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 134.62 111.76)
+			(xy 142.24 134.62) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50054bf-4e0c-43dc-b732-0096338912db")
+	)
+	(wire
+		(pts
+			(xy 226.06 133.35) (xy 232.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa8982d-10c3-47f2-8886-3761fdc4ad8c")
+	)
+	(wire
+		(pts
+			(xy 130.81 71.12) (xy 130.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2428,20 +4299,19 @@
 		)
 		(uuid "ffd13bee-8872-4259-9b96-c115cf7b9631")
 	)
-	(hierarchical_label "OUT_P"
-		(shape output)
-		(at 185.42 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 137.16 137.16) (xy 156.21 137.16)
 		)
-		(uuid "000edbff-6efb-4bb2-9376-a2408f2cba4e")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffa8eec-3e6f-4cae-bedd-a236dcf7f1a0")
 	)
 	(hierarchical_label "IN_N"
 		(shape input)
-		(at 111.76 114.3 180)
+		(at 107.95 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2450,9 +4320,20 @@
 		)
 		(uuid "11cb6ba4-2c0f-47a9-9c27-6b1583a6095e")
 	)
+	(hierarchical_label "IN1_P"
+		(shape input)
+		(at 95.25 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61837a03-6786-4fe7-997f-f2661a441794")
+	)
 	(hierarchical_label "VCM"
 		(shape input)
-		(at 185.42 116.84 0)
+		(at 181.61 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2461,20 +4342,20 @@
 		)
 		(uuid "63e4145c-e4af-43e0-9d6b-dec20ccb7501")
 	)
-	(hierarchical_label "OUT_N"
-		(shape output)
-		(at 185.42 106.68 0)
+	(hierarchical_label "IN1_N"
+		(shape input)
+		(at 95.25 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "67c5692c-88b8-4097-8175-a6a55017a1eb")
+		(uuid "8fb5f567-c06f-41e1-9139-f19f5c85d264")
 	)
 	(hierarchical_label "IN_P"
 		(shape input)
-		(at 111.76 104.14 180)
+		(at 107.95 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2484,8 +4365,8 @@
 		(uuid "ddc9705c-7d0e-49c3-bccf-c733d49788f4")
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
-		(at 177.8 111.76 0)
+		(lib_id "Thunderscope_Rev5:+3V3_ACQ_BAR")
+		(at 102.87 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2493,9 +4374,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1e59432c-32d5-4313-b1cc-7e824cd23bc0")
-		(property "Reference" "R137_1"
-			(at 177.8 114.3 0)
+		(uuid "07485df5-6dc3-4764-bf05-c689e4d3cebf")
+		(property "Reference" "#PWR0515"
+			(at 102.87 110.49 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,8 +4386,8 @@
 				)
 			)
 		)
-		(property "Value" "4.99"
-			(at 177.8 111.76 0)
+		(property "Value" "+3V3_ACQ"
+			(at 102.87 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2514,8 +4396,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 177.8 111.76 0)
+		(property "Footprint" ""
+			(at 102.87 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +4408,161 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 111.76 0)
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '+3V3_ACQ'"
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fa7520c4-9a54-4acc-b71b-39e9c8fa19c5")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 245.11 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07912f5e-8da9-41cb-b97f-7d6e8d652d03")
+		(property "Reference" "#PWR0540"
+			(at 245.11 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58e82a56-af54-4e5a-a92a-1195eb18e424")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0540")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 147.32 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b72a736-0254-4e67-924e-8bb3df5ff25c")
+		(property "Reference" "R137_5"
+			(at 149.86 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82.5"
+			(at 147.32 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 147.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +4573,7 @@
 			)
 		)
 		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +4584,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +4595,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +4606,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2581,7 +4617,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +4628,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +4639,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2614,7 +4650,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +4661,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2635,7 +4671,439 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 177.8 111.76 0)
+			(at 147.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4194da67-e4e1-4b4a-ad8b-ab28184e2526")
+		)
+		(pin "2"
+			(uuid "616f89f8-2376-4211-813b-a5d737ebfa91")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 125.73 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "153fd167-a687-4cbd-9173-182fe8bf0b7d")
+		(property "Reference" "R137_3"
+			(at 123.19 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "499"
+			(at 125.73 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 125.73 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 125.73 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbea3910-b9bd-465e-ad98-a89ea2d671ce")
+		)
+		(pin "2"
+			(uuid "07f67078-8e77-4a61-9b96-977ccb24e9bc")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 245.11 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15407731-efed-4349-8375-3e3dfca67bb9")
+		(property "Reference" "#PWR0539"
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c168c43-aef4-48c6-853f-5ea9943ddf6b")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0539")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 173.99 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e59432c-32d5-4313-b1cc-7e824cd23bc0")
+		(property "Reference" "R137_1"
+			(at 173.99 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.99"
+			(at 173.99 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 173.99 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +5130,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 10uF 25V X5R 0603")
-		(at 109.22 86.36 0)
+		(at 105.41 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2672,7 +5140,7 @@
 		(dnp no)
 		(uuid "1fabc6ec-0954-45bf-8db8-7fb4bc96e3f1")
 		(property "Reference" "C69_1"
-			(at 111.76 86.36 0)
+			(at 107.95 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2683,7 +5151,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 111.76 88.9 0)
+			(at 107.95 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2694,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0603"
-			(at 109.22 86.36 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 86.36 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +5184,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 109.22 86.36 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +5195,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2739,7 +5207,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2751,7 +5219,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +5231,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM188R61E106MA3D"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,7 +5243,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +5255,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +5267,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM188R61E106MA73D"
-			(at 106.966 80.772 0)
+			(at 103.156 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +5279,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 109.22 86.36 0)
+			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +5306,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:IC ADC DRIVER ADA4930-1YCPZ")
-		(at 160.02 109.22 0)
+		(at 156.21 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2848,7 +5316,7 @@
 		(dnp no)
 		(uuid "1feb6357-7ec5-417d-afaf-a7bfc26adf78")
 		(property "Reference" "U12_1"
-			(at 154.94 90.17 0)
+			(at 151.13 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2858,7 +5326,7 @@
 			)
 		)
 		(property "Value" "ADA4930-1YCPZ"
-			(at 160.02 130.81 0)
+			(at 156.21 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2868,7 +5336,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:AD_QFN16_CP-16-21"
-			(at 160.02 133.858 0)
+			(at 156.21 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,7 +5347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2890,7 +5358,7 @@
 			)
 		)
 		(property "Description" "Differential Amplifier 1 Circuit Differential 16-LFCSP-VQ (3x3)"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +5369,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +5380,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "584-ADA4930-1YCPZ-R7"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,7 +5391,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2934,7 +5402,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ADA4930-1YCPZ-R7"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2945,7 +5413,7 @@
 			)
 		)
 		(property "PACKAGE" "16-QFN (3x3mm)"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +5424,7 @@
 			)
 		)
 		(property "Substitutions Policy" "No Substitutions"
-			(at 160.02 109.22 0)
+			(at 156.21 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +5496,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 129.54 0)
+		(at 143.51 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3038,7 +5506,7 @@
 		(dnp no)
 		(uuid "2239bc5e-3bff-488b-b3bc-db54791a7718")
 		(property "Reference" "#PWR0520"
-			(at 147.32 135.89 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +5517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 133.35 0)
+			(at 143.51 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3059,7 +5527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 129.54 0)
+			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3070,7 +5538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 129.54 0)
+			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3081,7 +5549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 129.54 0)
+			(at 143.51 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,8 +5572,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 134.62 86.36 0)
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 110.49 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3113,31 +5581,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3ad3b981-8be5-49d3-949b-01265524035b")
-		(property "Reference" "C70_1"
-			(at 136.874 86.106 0)
+		(uuid "22b0b971-2d10-4503-869d-59daf333f1d1")
+		(property "Reference" "#PWR0529"
+			(at 104.14 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
-			(at 136.874 88.646 0)
+		(property "Value" "GND"
+			(at 106.68 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 134.62 86.36 0)
+		(property "Footprint" ""
+			(at 110.49 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +5616,322 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 86.36 0)
+			(at 110.49 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb9e7b15-12f8-4c43-af4b-31063f7e9a37")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0529")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 120.65 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3280de42-65e0-4873-86c7-38ea886bade6")
+		(property "Reference" "#PWR0531"
+			(at 120.65 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e785905-aa6e-4b69-823d-46ff03a8b2fb")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0531")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 201.93 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33f2c268-68d1-4072-a2ff-9a42661b63df")
+		(property "Reference" "J2"
+			(at 195.326 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 195.326 59.436 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 201.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2092f52-8c2a-4949-8362-90237da9b048")
+		)
+		(pin "1"
+			(uuid "14ec74ad-9ace-45cc-8c9c-8d951091aec8")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 123.19 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35860c4c-2f42-4b06-82f9-871c0ef5c778")
+		(property "Reference" "#PWR0530"
+			(at 123.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "693ca259-2438-4e27-8fa6-5ed0eb33d50a")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0530")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 120.65 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35a1e036-c0c8-43f6-9e26-df8e0bd8aacb")
+		(property "Reference" "C104_3"
+			(at 121.666 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100pF"
+			(at 121.412 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 120.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +5942,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 134.62 86.36 0)
+			(at 120.65 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3170,7 +5953,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,7 +5965,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,7 +5977,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,7 +5989,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +6001,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +6013,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +6025,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 132.366 80.772 0)
+			(at 118.396 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +6037,183 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 134.62 86.36 0)
+			(at 120.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "15e3c9d9-a10d-4af4-88b1-12c0f3db20a9")
+		)
+		(pin "1"
+			(uuid "674d4112-b54f-448f-a803-08ea28cc235a")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "C104_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 130.81 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ad3b981-8be5-49d3-949b-01265524035b")
+		(property "Reference" "C70_1"
+			(at 133.064 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 133.064 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 130.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "25V"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
+			(at 128.556 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3280,8 +6239,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 172.72 129.54 0)
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 186.69 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3289,9 +6248,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4b01ef7c-3417-4b05-98b5-d988f40ec1da")
-		(property "Reference" "#PWR0522"
-			(at 172.72 135.89 0)
+		(uuid "3ae76cb3-c965-4d7c-8810-a759263387b9")
+		(property "Reference" "#PWR0541"
+			(at 180.34 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,7 +6261,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 133.35 0)
+			(at 182.88 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3312,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 129.54 0)
+			(at 186.69 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,7 +6283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 129.54 0)
+			(at 186.69 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +6294,615 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 129.54 0)
+			(at 186.69 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a485e699-98f0-4dcb-85d1-5ec459b6966c")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 147.32 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c22afdc-f1eb-42cc-b9e7-d529c4c8ea37")
+		(property "Reference" "R137_4"
+			(at 149.86 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "127"
+			(at 147.32 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 147.32 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f437c7d-552e-4110-920c-5e22e90c1594")
+		)
+		(pin "2"
+			(uuid "6000eaf0-3583-480c-a6e4-a89167a291c3")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 156.21 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46bef1a9-809b-470f-8bfe-029c1a3b6345")
+		(property "Reference" "R137_7"
+			(at 158.75 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "82.5"
+			(at 156.21 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 156.21 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bba0deb5-718d-4af9-876e-93ad278ebd17")
+		)
+		(pin "2"
+			(uuid "404c8041-daff-4124-9615-86aee42a5ac8")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4969453e-5ac0-459a-96e5-a9b8cae0a18c")
+		(property "Reference" "R137_2"
+			(at 130.81 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.3K"
+			(at 130.81 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 130.81 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fa76139-7595-4f26-bb72-bc197900b482")
+		)
+		(pin "2"
+			(uuid "8d82f215-e3e7-46e8-9b14-b32977d9d489")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b01ef7c-3417-4b05-98b5-d988f40ec1da")
+		(property "Reference" "#PWR0522"
+			(at 168.91 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,8 +6925,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:GND")
-		(at 180.34 129.54 0)
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 172.72 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3366,30 +6934,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5bd5177e-ec2f-4565-8b25-9331c6a41ef4")
-		(property "Reference" "#PWR0523"
-			(at 180.34 135.89 0)
-			(hide yes)
+		(uuid "4cefa78c-7668-4501-82a7-e9da56e7ab36")
+		(property "Reference" "C104_2"
+			(at 174.974 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "GND"
-			(at 180.34 133.35 0)
+		(property "Value" "10nF"
+			(at 174.974 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 129.54 0)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 172.72 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +6969,535 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 129.54 0)
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "25V"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
+			(at 170.466 141.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88016590-ac7d-47b4-8191-d3ab8b6749c7")
+		)
+		(pin "1"
+			(uuid "d70e75e1-33db-4a27-be4b-a9dc8e2e27f5")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "C104_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 232.41 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5328cc6d-2b33-4566-9b1d-90466d265ede")
+		(property "Reference" "R137_9"
+			(at 229.87 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 232.41 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 232.41 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 232.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e8dd4d9-294c-4adb-8a70-8b0cdede3dee")
+		)
+		(pin "2"
+			(uuid "90dae757-b18d-4922-90b1-676b0e926f13")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 142.24 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a127e1a-6445-4d83-8e6d-2f6d846628ab")
+		(property "Reference" "C104_5"
+			(at 143.256 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 143.002 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 142.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 142.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "25V"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
+			(at 139.986 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 142.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a0aec907-1b88-497a-a31a-7bd2c7ed8b68")
+		)
+		(pin "1"
+			(uuid "bd31c40c-aea9-4cb7-b6a4-8501f7158390")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "C104_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 176.53 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bd5177e-ec2f-4565-8b25-9331c6a41ef4")
+		(property "Reference" "#PWR0523"
+			(at 176.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,7 +7508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 129.54 0)
+			(at 176.53 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +7532,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:RES 120 OHM 1% 1/16W 0402")
-		(at 116.84 109.22 90)
+		(at 113.03 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,7 +7542,7 @@
 		(dnp no)
 		(uuid "5d19739e-98b4-4461-a648-7acdeef13c71")
 		(property "Reference" "R131_1"
-			(at 119.38 109.22 0)
+			(at 115.57 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3455,7 +7552,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3465,7 +7562,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3476,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,7 +7584,7 @@
 			)
 		)
 		(property "Description" "120 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +7595,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3509,7 +7606,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +7617,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-07120RL"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3531,7 +7628,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +7639,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,7 +7650,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "RC0402FR-07120RL"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,7 +7661,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +7672,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 116.84 109.22 0)
+			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3601,8 +7698,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
-		(at 177.8 106.68 0)
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 142.24 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3610,9 +7707,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "67ee7796-4861-4ec7-93f4-55c198b06a5d")
-		(property "Reference" "R136_1"
-			(at 177.8 109.22 0)
+		(uuid "5e5ea5c9-638b-4ebb-b634-9d069777fd42")
+		(property "Reference" "#PWR0533"
+			(at 142.24 180.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3621,8 +7719,9 @@
 				)
 			)
 		)
-		(property "Value" "4.99"
-			(at 177.8 106.68 0)
+		(property "Value" "GND"
+			(at 142.24 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3631,8 +7730,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 177.8 106.68 0)
+		(property "Footprint" ""
+			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +7742,285 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 106.68 0)
+			(at 142.24 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ea52431-c810-4efb-a9ad-38dae1451cc5")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0533")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 132.08 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "613e333e-f8a4-4356-8e27-90c694b5d5c2")
+		(property "Reference" "#PWR0532"
+			(at 132.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbaf5832-5e1e-44ef-8f28-fb53a14a40aa")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0532")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Counter:ADCMP573")
+		(at 114.3 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "630f2805-090a-47e9-ad2f-cf27e79ef09c")
+		(property "Reference" "U1"
+			(at 112.014 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ADCMP573"
+			(at 112.014 125.222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_CSP:LFCSP-16-1EP_3x3mm_P0.5mm_EP1.3x1.3mm"
+			(at 117.094 115.062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "d065cd44-9a05-4126-9e2c-6163959f7d59")
+		)
+		(pin "17"
+			(uuid "1929b0a2-9a55-4be5-8462-7683c61bb42c")
+		)
+		(pin "11"
+			(uuid "689cd42f-24d3-4366-a7ed-792fe461a8a9")
+		)
+		(pin "12"
+			(uuid "deb3fa57-62c7-489e-bd8f-d266504fc7f3")
+		)
+		(pin "2"
+			(uuid "326386ea-b4ed-46dc-b00f-39b4a3f38b0c")
+		)
+		(pin "8"
+			(uuid "5d3ea2c8-6260-49b8-bcc9-3532edc9e60c")
+		)
+		(pin "3"
+			(uuid "5cd8ebcf-00df-43e9-9486-140f98303e08")
+		)
+		(pin "13"
+			(uuid "b5f88cc1-4d1a-4d3f-97e0-3f9b3b9ac84a")
+		)
+		(pin "1"
+			(uuid "9422dcb9-3569-4ff4-b372-cd5ca88d7893")
+		)
+		(pin "4"
+			(uuid "a55ae78e-b9f0-4f40-8d8c-79924097db37")
+		)
+		(pin "9"
+			(uuid "5ad551c2-08f1-44e1-8116-e45fdb2de80a")
+		)
+		(pin "14"
+			(uuid "1a7346d7-37b0-46d6-b100-f120ddd87294")
+		)
+		(pin "6"
+			(uuid "c74ae2f7-da0d-4dd6-98fe-5bbf0fcda781")
+		)
+		(pin "7"
+			(uuid "df452cc1-f5cc-4ef9-b4b0-dec6c2c08d31")
+		)
+		(pin "16"
+			(uuid "b73218fa-cd86-4411-94f2-ae954f1f9c02")
+		)
+		(pin "5"
+			(uuid "f61c8783-b632-4965-b0a4-92932bc93b69")
+		)
+		(pin "15"
+			(uuid "c11ca135-15d7-410e-b017-1a887ae7eb18")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 173.99 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67ee7796-4861-4ec7-93f4-55c198b06a5d")
+		(property "Reference" "R136_1"
+			(at 173.99 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.99"
+			(at 173.99 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 173.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +8031,7 @@
 			)
 		)
 		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +8042,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +8053,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +8064,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +8075,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Yageo"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +8086,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +8097,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +8108,7 @@
 			)
 		)
 		(property "TOLERANCE" "1%"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +8119,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3752,7 +8129,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 177.8 106.68 0)
+			(at 173.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,8 +8155,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:RES 300 OHM 0.1% 1/16W 0402")
-		(at 127 114.3 0)
+		(lib_id "Counter:SN65LVDS20")
+		(at 184.15 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3787,9 +8164,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6a49e2fa-e3f6-4530-a6b1-7b33b5912ea4")
-		(property "Reference" "R133_1"
-			(at 127 116.84 0)
+		(uuid "6866cde9-4c67-4a10-aac7-5de888145106")
+		(property "Reference" "U2"
+			(at 185.674 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3798,8 +8175,8 @@
 				)
 			)
 		)
-		(property "Value" "300"
-			(at 127 114.3 0)
+		(property "Value" "SN65LVDS20"
+			(at 191.008 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,8 +8185,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 127 114.3 0)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+			(at 184.15 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +8197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 114.3 0)
+			(at 184.15 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,8 +8207,110 @@
 				)
 			)
 		)
-		(property "Description" "300 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 127 114.3 0)
+		(property "Description" ""
+			(at 184.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "f8692484-d9c0-4ce7-aa12-6f36d059532d")
+		)
+		(pin "4"
+			(uuid "1da02833-cee5-4e71-8ac2-949f2ec0b1cf")
+		)
+		(pin "3"
+			(uuid "315a4ced-20d9-461b-8f6f-f888fd04a6e8")
+		)
+		(pin "6"
+			(uuid "e6f65c3c-521c-438d-8aa8-3a061193b225")
+		)
+		(pin "5"
+			(uuid "20263194-b77e-451a-9e84-dea9524eb1c7")
+		)
+		(pin "7"
+			(uuid "f33fa23c-82a0-4fbb-a6e3-ec2094674b54")
+		)
+		(pin "8"
+			(uuid "610fa997-8e68-405c-af15-9ec29f5904f7")
+		)
+		(pin "2"
+			(uuid "b6ce688d-4f5e-4f5f-8dad-9e26829c5df0")
+		)
+		(pin "1"
+			(uuid "1ebbe952-c756-4962-9574-016fc4ee75bd")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 132.08 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68cb70e7-d0b2-4101-9e51-d4e57b4ae8eb")
+		(property "Reference" "C104_4"
+			(at 133.096 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100pF"
+			(at 132.842 171.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 132.08 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 132.08 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +8321,181 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 127 114.3 0)
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "25V"
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
+			(at 129.826 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 132.08 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3210146e-2ac1-451c-b132-3e3cb6085d23")
+		)
+		(pin "1"
+			(uuid "ecd03bb9-3766-4755-a3d1-246a2ae88c6f")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "C104_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 300 OHM 0.1% 1/16W 0402")
+		(at 123.19 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a49e2fa-e3f6-4530-a6b1-7b33b5912ea4")
+		(property "Reference" "R133_1"
+			(at 123.19 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 123.19 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,7 +8506,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,7 +8517,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "667-ERA-2AEB301X"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +8528,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +8539,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +8550,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERA-2AEB301X"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +8561,7 @@
 			)
 		)
 		(property "TOLERANCE" "0.1%"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +8572,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3929,7 +8582,7 @@
 			)
 		)
 		(property "Substitutions Policy" "ECO Required for Substitution"
-			(at 127 114.3 0)
+			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3955,8 +8608,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:GND")
-		(at 121.92 91.44 0)
+		(lib_id "Thunderscope_Rev5:FERRITE BEAD 120 OHM 0402")
+		(at 111.76 115.57 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3964,10 +8618,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7e1edf58-24e8-44ad-8a4c-eb94f339d849")
-		(property "Reference" "#PWR0527"
-			(at 121.92 97.79 0)
-			(hide yes)
+		(uuid "6f6b608e-c7f5-45ac-88cb-a9a395c346ac")
+		(property "Reference" "FB1000_2"
+			(at 111.76 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3976,8 +8629,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 121.92 95.25 0)
+		(property "Value" "120@100MHZ"
+			(at 111.76 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3986,8 +8639,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 91.44 0)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 111.76 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3998,7 +8651,180 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 91.44 0)
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0402 (1005 Metric) 2A 55mOhm"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-BLM15PX121SN1D"
+			(at 113.03 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" "BLM15PX121SN1D"
+			(at 119.38 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 119.38 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "BLM15PX121SN1D"
+			(at 119.38 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 111.76 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "No Substitutions"
+			(at 111.76 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20dac2f0-eba7-48b9-9375-ee6b6ba79e11")
+		)
+		(pin "1"
+			(uuid "700884d4-f011-43d8-916c-417285d4346c")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "FB1000_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 201.93 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7649bb65-933b-471a-ab68-ec835cadc380")
+		(property "Reference" "#PWR0525"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4009,7 +8835,337 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 91.44 0)
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fb167db-300e-4c3e-af55-9c8f64158032")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 196.85 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78aa9f55-7fef-4bf4-a880-7f0588881e14")
+		(property "Reference" "C104_6"
+			(at 195.326 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 203.708 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 196.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 196.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "VOLTAGE RATING" "25V"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
+			(at 191.262 125.444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 196.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "232013ba-c8cc-4623-9758-451726890703")
+		)
+		(pin "1"
+			(uuid "56b806f3-ff8f-4f66-a39e-23a1fc63adf2")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "C104_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:+3V3_ACQ_BAR")
+		(at 185.42 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b4586da-f36e-45b3-acd9-72ff8466462a")
+		(property "Reference" "#PWR0517"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_ACQ"
+			(at 185.42 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '+3V3_ACQ'"
+			(at 185.42 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5a74b6e6-0cc1-4e08-b45f-7830bb409c7b")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0517")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 118.11 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e1edf58-24e8-44ad-8a4c-eb94f339d849")
+		(property "Reference" "#PWR0527"
+			(at 118.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,8 +9188,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 180.34 124.46 0)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 201.93 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4041,31 +9197,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "868bcb78-f8ed-4b5a-a2f4-a04fb024a17d")
-		(property "Reference" "C104_1"
-			(at 182.594 124.206 0)
+		(uuid "7fc93b78-d374-4092-bed1-fb3db359ecfe")
+		(property "Reference" "J3"
+			(at 195.326 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 182.594 126.746 0)
+		(property "Value" "Conn_Coaxial"
+			(at 195.326 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 180.34 124.46 0)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+			(at 201.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +9232,166 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 124.46 0)
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 201.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76d1d893-539a-4c27-b7b0-aa0dfdc8b855")
+		)
+		(pin "1"
+			(uuid "b2860d7b-a0cf-434a-b109-0a685ae91a0d")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 232.41 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86267260-7e4f-4cb0-94ab-daa3ab0bf097")
+		(property "Reference" "#PWR0537"
+			(at 232.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78403ebe-ac51-437b-bec9-d636a2d64bc8")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0537")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
+		(at 176.53 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "868bcb78-f8ed-4b5a-a2f4-a04fb024a17d")
+		(property "Reference" "C104_1"
+			(at 178.784 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 178.784 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
+			(at 176.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,7 +9402,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 180.34 124.46 0)
+			(at 176.53 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +9413,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +9425,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +9437,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +9449,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +9461,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4158,7 +9473,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4170,7 +9485,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 178.086 118.872 0)
+			(at 174.276 75.692 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +9497,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 180.34 124.46 0)
+			(at 176.53 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,7 +9524,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:RES 300 OHM 0.1% 1/16W 0402")
-		(at 142.24 116.84 0)
+		(at 138.43 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4219,7 +9534,7 @@
 		(dnp no)
 		(uuid "98347f8e-a150-4e0c-948a-3cb537a9a047")
 		(property "Reference" "R135_1"
-			(at 142.24 119.38 0)
+			(at 138.43 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4229,7 +9544,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4239,7 +9554,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4250,7 +9565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4261,7 +9576,7 @@
 			)
 		)
 		(property "Description" "300 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +9587,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +9598,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +9609,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "667-ERA-2AEB301X"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +9620,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +9631,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,7 +9642,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERA-2AEB301X"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4338,7 +9653,7 @@
 			)
 		)
 		(property "TOLERANCE" "0.1%"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,7 +9664,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4359,7 +9674,7 @@
 			)
 		)
 		(property "Substitutions Policy" "ECO Required for Substitution"
-			(at 142.24 116.84 0)
+			(at 138.43 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +9701,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:RES 300 OHM 0.1% 1/16W 0402")
-		(at 127 104.14 0)
+		(at 123.19 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4396,7 +9711,7 @@
 		(dnp no)
 		(uuid "9cb16b8c-4127-49b6-aa22-6bc0ab576159")
 		(property "Reference" "R132_1"
-			(at 127 106.68 0)
+			(at 123.19 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4406,7 +9721,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,7 +9731,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4427,7 +9742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +9753,7 @@
 			)
 		)
 		(property "Description" "300 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +9764,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +9775,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +9786,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "667-ERA-2AEB301X"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +9797,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4493,7 +9808,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,7 +9819,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERA-2AEB301X"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +9830,7 @@
 			)
 		)
 		(property "TOLERANCE" "0.1%"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +9841,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4536,7 +9851,7 @@
 			)
 		)
 		(property "Substitutions Policy" "ECO Required for Substitution"
-			(at 127 104.14 0)
+			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +9878,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 109.22 91.44 0)
+		(at 156.21 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4571,9 +9886,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a6e89409-c31a-48d4-aabe-8b1fbdc7f9c4")
-		(property "Reference" "#PWR0516"
-			(at 109.22 97.79 0)
+		(uuid "a3fa94f5-1d8f-4ee3-9913-56cc7db394e5")
+		(property "Reference" "#PWR0535"
+			(at 156.21 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +9899,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 95.25 0)
+			(at 156.21 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4594,7 +9910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 91.44 0)
+			(at 156.21 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,7 +9921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 91.44 0)
+			(at 156.21 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +9932,261 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 91.44 0)
+			(at 156.21 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1472ab6-b9fa-4299-9333-26724016cba3")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0535")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 215.9 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a485dd54-fce5-4438-8f95-2e0a985f7dc9")
+		(property "Reference" "R136_3"
+			(at 215.9 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 215.9 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 215.9 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 215.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d4dd1d6-9166-4c3f-bad5-e407a2e3f349")
+		)
+		(pin "2"
+			(uuid "fadbc7c8-5d57-48f2-bdac-d2e07c0466f8")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R136_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 105.41 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6e89409-c31a-48d4-aabe-8b1fbdc7f9c4")
+		(property "Reference" "#PWR0516"
+			(at 105.41 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +10210,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:RES 300 OHM 0.1% 1/16W 0402")
-		(at 142.24 101.6 0)
+		(at 138.43 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4650,7 +10220,7 @@
 		(dnp no)
 		(uuid "adc979fd-d5cc-4d5b-9990-7ad164e8960a")
 		(property "Reference" "R134_1"
-			(at 142.24 104.14 0)
+			(at 138.43 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4660,7 +10230,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +10240,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +10251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +10262,7 @@
 			)
 		)
 		(property "Description" "300 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,7 +10273,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +10284,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +10295,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "667-ERA-2AEB301X"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,7 +10306,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +10317,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +10328,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "ERA-2AEB301X"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,7 +10339,7 @@
 			)
 		)
 		(property "TOLERANCE" "0.1%"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +10350,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4790,7 +10360,7 @@
 			)
 		)
 		(property "Substitutions Policy" "ECO Required for Substitution"
-			(at 142.24 101.6 0)
+			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,7 +10387,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 121.92 86.36 0)
+		(at 118.11 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4827,7 +10397,7 @@
 		(dnp no)
 		(uuid "ae3b9b5b-54e0-4c2c-8ae5-45be114b082b")
 		(property "Reference" "C105_1"
-			(at 124.174 86.106 0)
+			(at 120.364 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4838,7 +10408,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 124.174 88.646 0)
+			(at 120.364 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4849,7 +10419,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 121.92 86.36 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +10430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 86.36 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +10441,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 121.92 86.36 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +10452,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,7 +10464,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4906,7 +10476,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +10488,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4930,7 +10500,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4942,7 +10512,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +10524,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 119.666 80.772 0)
+			(at 115.856 37.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,7 +10536,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 121.92 86.36 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,7 +10563,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 134.62 91.44 0)
+		(at 232.41 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5001,9 +10571,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b35da163-59ba-4d3b-bd6b-1c471671e0fa")
-		(property "Reference" "#PWR0519"
-			(at 134.62 97.79 0)
+		(uuid "b02793fc-c436-45f3-802c-a413684e78ae")
+		(property "Reference" "#PWR0538"
+			(at 232.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +10584,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 95.25 0)
+			(at 232.41 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5024,7 +10595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 91.44 0)
+			(at 232.41 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5035,7 +10606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 91.44 0)
+			(at 232.41 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,7 +10617,84 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 91.44 0)
+			(at 232.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edbf898c-d96e-40a2-af19-6ff2953877c6")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0538")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 130.81 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b35da163-59ba-4d3b-bd6b-1c471671e0fa")
+		(property "Reference" "#PWR0519"
+			(at 130.81 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,8 +10717,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:+3V3_ACQ_BAR")
-		(at 104.14 78.74 180)
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 200.66 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5078,10 +10726,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ba035c26-d6b6-423e-ae20-655c5ccbe7ce")
-		(property "Reference" "#PWR0514"
-			(at 104.14 78.74 0)
-			(hide yes)
+		(uuid "b4f24b83-721f-46ee-9040-fad472af908a")
+		(property "Reference" "R137_8"
+			(at 203.2 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5090,8 +10737,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_ACQ"
-			(at 104.14 74.93 0)
+		(property "Value" "0"
+			(at 200.66 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5100,8 +10747,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 78.74 0)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 200.66 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5112,7 +10759,185 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 78.74 0)
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 200.66 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 200.66 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec2cdcfe-f22e-4167-bd33-a69f5a7b1f7c")
+		)
+		(pin "2"
+			(uuid "d2b9a171-873c-4c2a-9069-14dd986b4bc9")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:+3V3_ACQ_BAR")
+		(at 100.33 35.56 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba035c26-d6b6-423e-ae20-655c5ccbe7ce")
+		(property "Reference" "#PWR0514"
+			(at 100.33 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_ACQ"
+			(at 100.33 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +10948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+3V3_ACQ'"
-			(at 104.14 78.74 0)
+			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5140,6 +10965,1438 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
 					(reference "#PWR0514")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:FERRITE BEAD 120 OHM 0402")
+		(at 195.58 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd1dc0c-0bc4-4d0e-a8d7-ccf6b1e3491f")
+		(property "Reference" "FB1000_3"
+			(at 195.58 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120@100MHZ"
+			(at 195.58 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0402 (1005 Metric) 2A 55mOhm"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 196.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "81-BLM15PX121SN1D"
+			(at 196.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" "BLM15PX121SN1D"
+			(at 203.2 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 203.2 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "BLM15PX121SN1D"
+			(at 203.2 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 195.58 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "No Substitutions"
+			(at 195.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97f2a35b-fe6f-4d6f-8700-d39a5f982b2a")
+		)
+		(pin "1"
+			(uuid "dc329e9a-748f-4ccc-b458-4a278b631c86")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "FB1000_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 226.06 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0e9a8f2-2e78-4a84-a476-392605f5f2b0")
+		(property "Reference" "R136_4"
+			(at 228.6 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 226.06 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 226.06 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91ff8028-e710-4a09-9771-473a6087d547")
+		)
+		(pin "2"
+			(uuid "3e6cc245-4b19-49b7-9041-231b098df0c6")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R136_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 232.41 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c419eef4-b359-475e-a86e-345684ddb5e5")
+		(property "Reference" "R137_10"
+			(at 229.87 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "49.9"
+			(at 232.41 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 232.41 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 232.41 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2715b06-bf94-48c4-b8ec-58fb00eb6858")
+		)
+		(pin "2"
+			(uuid "c7e3af9b-57fe-4530-a250-9c18a677ae93")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 215.9 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce7c93a2-53e8-4bab-9ed7-b5a6855bb654")
+		(property "Reference" "R136_2"
+			(at 215.9 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 215.9 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 215.9 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 215.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29ea7d3b-896b-4fc8-a37c-81edf8c045b1")
+		)
+		(pin "2"
+			(uuid "97f069bf-aadb-4000-aaea-bbd3c51d17ed")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R136_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:RES 4.99 OHM 1% 1/16W 0402")
+		(at 156.21 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cff2bc1d-0c85-4b2d-89b5-e634865b914c")
+		(property "Reference" "R137_6"
+			(at 158.75 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "127"
+			(at 156.21 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.99 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "0402"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "603-RC0402FR-074R99L"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "RC0402FR-074R99L"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TOLERANCE" "1%"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 156.21 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" "Any Parametric Equivalent"
+			(at 156.21 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2de96e0b-8da4-40fd-9189-a6e251627c69")
+		)
+		(pin "2"
+			(uuid "9e2ad4f6-c92c-4070-849e-009eaebd5960")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "R137_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 200.66 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d071ae44-7830-4710-97a2-aabc97cc16f6")
+		(property "Reference" "#PWR0536"
+			(at 200.66 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e89981c-1dd9-46ea-9650-68f749e6b51e")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0536")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 201.93 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcbb96c2-bc43-4e68-a9b2-fea60603f6db")
+		(property "Reference" "#PWR0524"
+			(at 201.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa62c63a-ea4f-43c2-981e-27023a9243ba")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0524")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 172.72 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebf32515-4531-47ba-a70c-cc8f2e068b8a")
+		(property "Reference" "#PWR0526"
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32661026-3e1f-4758-a6a5-8245c68bf83c")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 135.89 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0fc57d9-0906-40e9-8c4c-b34eef390fdb")
+		(property "Reference" "#PWR0528"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85ba65f3-4951-4375-9453-f358ab8a6109")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0528")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 245.11 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2f326bc-dee4-4e9c-b39a-f8fe50b6fe87")
+		(property "Reference" "J5"
+			(at 238.506 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 238.506 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3bab7ee1-6fb1-4fd1-ac0d-f1075fe2a54d")
+		)
+		(pin "1"
+			(uuid "15c0edc4-a6e1-43c8-a87d-a280fd4777b7")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 245.11 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6eccafb-7e17-4f3d-a4da-53e84c5c402f")
+		(property "Reference" "J4"
+			(at 238.506 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 238.506 129.286 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
+			(at 245.11 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 245.11 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f653fc5d-d41d-41e5-9265-d411b495e91f")
+		)
+		(pin "1"
+			(uuid "47b46d05-f821-4fe6-8117-2e8b15667995")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 147.32 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fed57434-58ac-48d9-964c-c4336e52ed99")
+		(property "Reference" "#PWR0534"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "492d39d5-d193-4aa6-b5c7-59e0a69d6329")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/6f265469-f192-4572-9c82-34d6b1e96d25"
+					(reference "#PWR0534")
 					(unit 1)
 				)
 			)

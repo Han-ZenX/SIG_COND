@@ -3,8 +3,6 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_barcodes": false,
-        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -50,23 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
-          "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 0,
-          "hatch_smoothing_value": 0.1,
-          "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -524,7 +506,6 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "warning",
-        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
@@ -542,7 +523,6 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "warning",
         "missing_footprint": "warning",
-        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "warning",
@@ -562,12 +542,9 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
-        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -680,28 +657,17 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
-      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": "",
-      "sch_revision": "5.3"
+      "mpn": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
-  "component_class_settings": {
-    "assignments": [],
-    "meta": {
-      "version": 0
-    },
-    "sheet_component_classes": {
-      "enabled": false
-    }
-  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -892,14 +858,11 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "field_name_whitespace": "warning",
       "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "warning",
       "global_label_dangling": "warning",
-      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
-      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -922,7 +885,6 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "warning",
-      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -957,7 +919,6 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "tuning_profile": "",
         "via_diameter": 0.4064,
         "via_drill": 0.2032,
         "wire_width": 6
@@ -968,16 +929,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.213,
-        "tuning_profile": ""
+        "track_width": 0.213
       },
       {
         "clearance": 0.127,
         "name": "FE_100Z_Diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.127,
@@ -986,7 +945,6 @@
         "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.213,
-        "tuning_profile": "",
         "via_diameter": 2.0,
         "via_drill": 1.0
       },
@@ -996,46 +954,40 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.213,
-        "tuning_profile": ""
+        "track_width": 0.213
       },
       {
         "clearance": 0.127,
         "name": "LVDS_ADC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "LVDS_ADC_CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.127,
         "name": "LVDS_SYNC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.127,
         "name": "LVDS_USRIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.127,
@@ -1044,13 +996,12 @@
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "tuning_profile": "",
         "via_diameter": 0.4064,
         "via_drill": 0.2032
       }
     ],
     "meta": {
-      "version": 5
+      "version": 4
     },
     "net_colors": {
       "+1V0": "rgb(255, 0, 255)",
@@ -1231,10 +1182,6 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "annotation": {
-      "method": 0,
-      "sort_order": 0
-    },
     "bom_export_filename": "ThunderScope_Rev5_PCIe.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1432,76 +1379,6 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {
-      "ADC_LVDS": [
-        "D4B_N",
-        "D4B_P",
-        "D4A_N",
-        "D4A_P",
-        "D3B_N",
-        "D3B_P",
-        "D3A_N",
-        "D3A_P",
-        "FCLK_N",
-        "FCLK_P",
-        "LCLK_N",
-        "LCLK_P",
-        "D2B_N",
-        "D2B_P",
-        "D2A_N",
-        "D2A_P",
-        "D1B_N",
-        "D1B_P",
-        "D1A_N",
-        "D1A_P"
-      ],
-      "MGT_RX": [
-        "MGT_RX0_P",
-        "MGT_RX0_N",
-        "MGT_RX1_P",
-        "MGT_RX1_N",
-        "MGT_RX2_P",
-        "MGT_RX2_N",
-        "MGT_RX3_P",
-        "MGT_RX3_N"
-      ],
-      "MGT_TX": [
-        "MGT_TX0_N",
-        "MGT_TX0_P",
-        "MGT_TX1_N",
-        "MGT_TX1_P",
-        "MGT_TX2_N",
-        "MGT_TX2_P",
-        "MGT_TX3_N",
-        "MGT_TX3_P"
-      ],
-      "USRIO": [
-        "USRIO_1_P",
-        "USRIO_1_N",
-        "USRIO_2_P",
-        "USRIO_2_N",
-        "USRIO_3_P",
-        "USRIO_3_N",
-        "USRIO_4_P",
-        "USRIO_4_N",
-        "USRIO_5_P",
-        "USRIO_5_N",
-        "USRIO_6_P",
-        "USRIO_6_N",
-        "USRIO_7_P",
-        "USRIO_7_N",
-        "USRIO_8_P",
-        "USRIO_8_N",
-        "USRIO_9_P",
-        "USRIO_9_N",
-        "USRIO_10_P",
-        "USRIO_10_N",
-        "USRIO_11_P",
-        "USRIO_11_N",
-        "USRIO_12_P",
-        "USRIO_12_N"
-      ]
-    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1509,7 +1386,6 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1533,7 +1409,6 @@
     "net_format_name": "",
     "page_layout_descr_file": "Sheet_Template.kicad_wks",
     "plot_directory": "./",
-    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1542,21 +1417,12 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0,
-    "top_level_sheets": [
-      {
-        "filename": "Thunderscope_Rev5.3.kicad_sch",
-        "name": "Thunderscope_Rev5.3",
-        "uuid": "031d3e2c-42e0-4016-8c32-579d45c83e09"
-      }
-    ],
-    "used_designators": "J6-7,J14-15",
-    "variants": []
+    "subpart_id_separator": 0
   },
   "sheets": [
     [
       "031d3e2c-42e0-4016-8c32-579d45c83e09",
-      "Thunderscope_Rev5.3"
+      "Root"
     ],
     [
       "d4ceb53c-d7d3-49f3-84e4-450b713426dc",
@@ -1589,6 +1455,50 @@
     [
       "6f265469-f192-4572-9c82-34d6b1e96d25",
       "ADC Driver 1"
+    ],
+    [
+      "acf35bbb-eab3-4fe2-9379-513f16ebe8c9",
+      "Front End Trim and Bias"
+    ],
+    [
+      "9a43e052-ab3a-4eb2-8617-8e5430b531e4",
+      "ADC"
+    ],
+    [
+      "5b9d4801-a91b-4563-ba0d-f8916f550354",
+      "Clock Generator"
+    ],
+    [
+      "ed55ca86-b434-4533-9cc2-1facf1ee6c7b",
+      "ACQ and FE Voltage Regs"
+    ],
+    [
+      "0f922f52-a6e9-41f0-8991-df4889546a95",
+      "FPGA"
+    ],
+    [
+      "3dc749f1-bb54-4961-a356-74c6bb9263ea",
+      "FPGA IO Banks"
+    ],
+    [
+      "9e3a6ae2-4fbe-4717-950b-8a09c623e35a",
+      "FPGA Config and Transceivers"
+    ],
+    [
+      "038472ca-999a-4bdd-b362-e2f5a3e05e32",
+      "FPGA Power Inputs"
+    ],
+    [
+      "578d4253-e95a-4587-beab-a07f275c1e48",
+      "FPGA Voltage Regs"
+    ],
+    [
+      "95dd7985-f010-4388-84bb-3ad8f1a365a2",
+      "TS-PCIe Components"
+    ],
+    [
+      "1740d22d-1854-48db-a246-157789f9c7e2",
+      "TS-USB4 Components"
     ]
   ],
   "text_variables": {
@@ -1604,11 +1514,5 @@
     "VERSIONCONTROL_PROJFOLDERREVNUMBERSHORT": "",
     "VERSIONCONTROL_REVNUMBER": "",
     "VERSIONCONTROL_REVNUMBERSHORT": ""
-  },
-  "tuning_profiles": {
-    "meta": {
-      "version": 0
-    },
-    "tuning_profiles_impedance_geometric": []
   }
 }

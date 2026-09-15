@@ -11111,6 +11111,199 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Thunderscope_Rev5:UFL Jack SMD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UFL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Thunderscope_Rev5:TE_2334884-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "UMCC Gen 4 Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER 1" "Mouser"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SUPPLIER PART NUMBER 1" "571-2334884-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "HOUSE PART NUMBER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER PART NUMBER" "2334884-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PACKAGE" "Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UFL Jack SMD_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -11629,13 +11822,13 @@
 		(uuid "4ec812ed-d01e-4234-ba3d-cfc5dab3b3cd")
 	)
 	(junction
-		(at 335.28 210.82)
+		(at 335.28 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f78e93e-76e9-4ba9-8d99-be9dc78bee46")
 	)
 	(junction
-		(at 350.52 210.82)
+		(at 350.52 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fb65916-d982-4707-a243-9907e42306ad")
@@ -11647,7 +11840,7 @@
 		(uuid "502484e3-5a25-4773-a779-d2909604a08c")
 	)
 	(junction
-		(at 370.84 210.82)
+		(at 370.84 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "509403f9-6edd-4fcf-95b1-e7c3ea9bcfe9")
@@ -11669,6 +11862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b166d30-5404-4cca-844e-f57f29c721d5")
+	)
+	(junction
+		(at 382.27 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e0bc756-66e3-4c08-b9ca-fb7647a465f3")
 	)
 	(junction
 		(at 144.78 279.4)
@@ -11875,6 +12074,12 @@
 		(uuid "cad873d7-c56b-4c6d-8b34-a21b5f729689")
 	)
 	(junction
+		(at 379.73 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf2248ef-51a8-4341-81c4-c6fba03ecaf7")
+	)
+	(junction
 		(at 101.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11905,7 +12110,7 @@
 		(uuid "db0e4126-d9c0-4a46-a37a-a17d59630de7")
 	)
 	(junction
-		(at 355.6 210.82)
+		(at 355.6 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e12e9623-7107-46ef-99a4-83f827db5953")
@@ -11923,7 +12128,7 @@
 		(uuid "e51b9c46-aec4-4183-8346-2536ab2b245d")
 	)
 	(junction
-		(at 360.68 210.82)
+		(at 360.68 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e77e06e6-fd86-4133-90f1-96ce25ebf8a7")
@@ -12081,7 +12286,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 210.82) (xy 350.52 210.82)
+			(xy 355.6 231.14) (xy 350.52 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12211,7 +12416,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 213.36) (xy 335.28 210.82)
+			(xy 335.28 233.68) (xy 335.28 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12451,7 +12656,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 210.82) (xy 370.84 210.82)
+			(xy 381 231.14) (xy 370.84 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12481,7 +12686,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 210.82) (xy 347.98 210.82)
+			(xy 350.52 231.14) (xy 347.98 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12548,6 +12753,16 @@
 			(type default)
 		)
 		(uuid "2f38d93d-3bf8-4245-8b14-7609ce26c524")
+	)
+	(wire
+		(pts
+			(xy 382.27 167.64) (xy 382.27 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303d2154-89e8-4689-99b3-0fceacbdaafa")
 	)
 	(wire
 		(pts
@@ -12691,7 +12906,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 213.36) (xy 350.52 210.82)
+			(xy 350.52 233.68) (xy 350.52 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12862,13 +13077,23 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 210.82) (xy 327.66 208.28)
+			(xy 327.66 231.14) (xy 327.66 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41b5b0f5-26c8-4e4b-8a2d-0b06a512451a")
+	)
+	(wire
+		(pts
+			(xy 379.73 170.18) (xy 379.73 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e062ea-0c6b-4f33-aaa0-2814b0a0eac7")
 	)
 	(wire
 		(pts
@@ -12922,7 +13147,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 210.82) (xy 360.68 210.82)
+			(xy 370.84 231.14) (xy 360.68 231.14)
 		)
 		(stroke
 			(width 0)
@@ -13082,7 +13307,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 210.82) (xy 355.6 210.82)
+			(xy 360.68 231.14) (xy 355.6 231.14)
 		)
 		(stroke
 			(width 0)
@@ -13102,7 +13327,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 213.36) (xy 381 210.82)
+			(xy 381 233.68) (xy 381 231.14)
 		)
 		(stroke
 			(width 0)
@@ -13112,7 +13337,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 213.36) (xy 370.84 210.82)
+			(xy 370.84 233.68) (xy 370.84 231.14)
 		)
 		(stroke
 			(width 0)
@@ -13412,7 +13637,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 208.28) (xy 391.16 213.36)
+			(xy 391.16 228.6) (xy 391.16 233.68)
 		)
 		(stroke
 			(width 0)
@@ -13672,7 +13897,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 170.18) (xy 386.08 170.18)
+			(xy 365.76 170.18) (xy 379.73 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13883,6 +14108,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 194.31) (xy 379.73 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875deca1-92af-481b-887b-e56dd4529d0d")
+	)
+	(wire
+		(pts
 			(xy 22.86 73.66) (xy 25.4 73.66)
 		)
 		(stroke
@@ -14053,7 +14288,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 167.64) (xy 386.08 167.64)
+			(xy 365.76 167.64) (xy 382.27 167.64)
 		)
 		(stroke
 			(width 0)
@@ -14435,6 +14670,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 194.31) (xy 384.81 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac419f0f-5e15-458d-b306-c4bb20e6936c")
+	)
+	(wire
+		(pts
 			(xy 248.92 187.96) (xy 248.92 185.42)
 		)
 		(stroke
@@ -14515,6 +14760,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 167.64) (xy 386.08 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6331d23-b0ab-45d5-ba53-f041cc01e811")
+	)
+	(wire
+		(pts
 			(xy 330.2 53.34) (xy 330.2 50.8)
 		)
 		(stroke
@@ -14585,6 +14840,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 170.18) (xy 386.08 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1adba7-07eb-42db-a844-de8ca4d244c7")
+	)
+	(wire
+		(pts
 			(xy 195.58 101.6) (xy 193.04 101.6)
 		)
 		(stroke
@@ -14635,7 +14900,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 210.82) (xy 335.28 210.82)
+			(xy 337.82 231.14) (xy 335.28 231.14)
 		)
 		(stroke
 			(width 0)
@@ -15015,7 +15280,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 213.36) (xy 360.68 210.82)
+			(xy 360.68 233.68) (xy 360.68 231.14)
 		)
 		(stroke
 			(width 0)
@@ -15115,7 +15380,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 210.82) (xy 327.66 210.82)
+			(xy 335.28 231.14) (xy 327.66 231.14)
 		)
 		(stroke
 			(width 0)
@@ -18546,7 +18811,7 @@
 		(uuid "01ac0050-1295-4f70-baa2-a9c9fec93195")
 	)
 	(label "+VPGA"
-		(at 381 210.82 180)
+		(at 381 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18715,6 +18980,16 @@
 		)
 		(uuid "bde93240-bfab-4d61-8652-2aa12ca2153d")
 	)
+	(label "AUX_R_P"
+		(at 375.92 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be36f6ee-2445-4e9c-b33d-b248c9c37e2d")
+	)
 	(label "OUT_R_P"
 		(at 375.92 167.64 180)
 		(effects
@@ -18764,6 +19039,16 @@
 			(justify right bottom)
 		)
 		(uuid "d6ffaa87-32d9-4515-9c18-7c51d80ffd15")
+	)
+	(label "AUX_R_N"
+		(at 375.92 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de55b6bd-33c5-48d2-9921-23e21ab00027")
 	)
 	(label "TERM_1M"
 		(at 76.2 38.1 0)
@@ -22200,40 +22485,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:+5V_BAR")
-		(at 327.66 208.28 0)
-		(mirror x)
+		(lib_id "Thunderscope_Rev5:UFL Jack SMD")
+		(at 372.11 194.31 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "254cb4e8-debe-4615-8164-24ec9ab2af99")
-		(property "Reference" "#PWR0325"
-			(at 327.66 208.28 0)
-			(hide yes)
+		(dnp yes)
+		(uuid "23ceb0ba-84f1-4dfd-bd5b-2612135b9f2c")
+		(property "Reference" "J3_1"
+			(at 374.65 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "+5V"
-			(at 327.66 204.47 0)
+		(property "Value" "UFL"
+			(at 377.19 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 327.66 208.28 0)
+		(property "Footprint" "Thunderscope_Rev5:TE_2334884-1"
+			(at 372.11 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22244,7 +22530,180 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 208.28 0)
+			(at 372.11 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "UMCC Gen 4 Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 372.11 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 374.65 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "571-2334884-1"
+			(at 374.65 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 377.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 377.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "2334884-1"
+			(at 377.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 372.11 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "Surface Mount"
+			(at 372.11 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" ""
+			(at 372.11 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af3c3db7-ff68-4961-b9a0-ab866fa1f580")
+		)
+		(pin "1"
+			(uuid "0d00a65b-3469-41fc-a5bd-794b1d6cea6f")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "J3_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:+5V_BAR")
+		(at 327.66 228.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "254cb4e8-debe-4615-8164-24ec9ab2af99")
+		(property "Reference" "#PWR0325"
+			(at 327.66 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 327.66 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22255,7 +22714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+5V'"
-			(at 327.66 208.28 0)
+			(at 327.66 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23319,7 +23778,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 370.84 218.44 0)
+		(at 370.84 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23330,7 +23789,7 @@
 		(dnp no)
 		(uuid "2ff6c17b-cc74-4c10-90f9-657950c0ee1c")
 		(property "Reference" "C1037_1"
-			(at 369.57 215.9 0)
+			(at 369.57 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23341,7 +23800,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 369.57 220.98 0)
+			(at 369.57 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23352,7 +23811,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23363,7 +23822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23374,7 +23833,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23385,7 +23844,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23396,7 +23855,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23407,7 +23866,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23418,7 +23877,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23429,7 +23888,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23440,7 +23899,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23451,7 +23910,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23462,7 +23921,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 370.84 218.44 0)
+			(at 370.84 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24692,7 +25151,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 381 223.52 0)
+		(at 381 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24703,7 +25162,7 @@
 		(dnp no)
 		(uuid "3ee4b34b-07e6-4a10-a862-49e49a75ac62")
 		(property "Reference" "#PWR0153"
-			(at 381 229.87 0)
+			(at 381 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24714,7 +25173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 227.33 0)
+			(at 381 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24724,7 +25183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 223.52 0)
+			(at 381 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24735,7 +25194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 223.52 0)
+			(at 381 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24746,7 +25205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 223.52 0)
+			(at 381 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24847,7 +25306,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:FERRITE BEAD 120 OHM 0402")
-		(at 342.9 210.82 0)
+		(at 342.9 231.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24858,7 +25317,7 @@
 		(dnp no)
 		(uuid "41cdfbee-f081-4082-b50c-057520ce4e73")
 		(property "Reference" "FB1000_1"
-			(at 342.9 205.74 0)
+			(at 342.9 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24868,7 +25327,7 @@
 			)
 		)
 		(property "Value" "120@100MHZ"
-			(at 342.9 208.28 0)
+			(at 342.9 228.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24878,7 +25337,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_R_0402"
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24889,7 +25348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24900,7 +25359,7 @@
 			)
 		)
 		(property "Description" "120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0402 (1005 Metric) 2A 55mOhm"
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24911,7 +25370,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 344.17 209.55 0)
+			(at 344.17 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24923,7 +25382,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-BLM15PX121SN1D"
-			(at 344.17 209.55 0)
+			(at 344.17 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24935,7 +25394,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" "BLM15PX121SN1D"
-			(at 350.52 206.756 0)
+			(at 350.52 227.076 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24947,7 +25406,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 350.52 206.756 0)
+			(at 350.52 227.076 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24959,7 +25418,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "BLM15PX121SN1D"
-			(at 350.52 206.756 0)
+			(at 350.52 227.076 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24971,7 +25430,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24981,7 +25440,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24992,7 +25451,7 @@
 			)
 		)
 		(property "Substitutions Policy" "No Substitutions"
-			(at 342.9 210.82 0)
+			(at 342.9 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25012,6 +25471,83 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
 					(reference "FB1000_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 389.89 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41dba325-3250-4d50-8938-5ad0e7862e8c")
+		(property "Reference" "#PWR0203"
+			(at 389.89 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 389.89 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 389.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "758ae2c2-9e76-4361-bab7-22c8d157c457")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -26515,7 +27051,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 355.6 210.82 0)
+		(at 355.6 231.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26526,7 +27062,7 @@
 		(dnp no)
 		(uuid "59046408-d04a-4445-9689-d4e0d60c7cdb")
 		(property "Reference" "#FLG_1"
-			(at 355.6 208.915 0)
+			(at 355.6 229.235 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26537,7 +27073,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 355.6 207.01 0)
+			(at 355.6 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26547,7 +27083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.6 210.82 0)
+			(at 355.6 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26558,7 +27094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 210.82 0)
+			(at 355.6 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26569,7 +27105,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 355.6 210.82 0)
+			(at 355.6 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26934,7 +27470,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 370.84 223.52 0)
+		(at 370.84 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26945,7 +27481,7 @@
 		(dnp no)
 		(uuid "5e703ebe-739b-4646-a133-f3ce761540c8")
 		(property "Reference" "#PWR0161"
-			(at 370.84 229.87 0)
+			(at 370.84 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26956,7 +27492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.84 227.33 0)
+			(at 370.84 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26966,7 +27502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 223.52 0)
+			(at 370.84 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26977,7 +27513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 223.52 0)
+			(at 370.84 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26988,7 +27524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 223.52 0)
+			(at 370.84 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27687,7 +28223,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 360.68 218.44 0)
+		(at 360.68 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27698,7 +28234,7 @@
 		(dnp no)
 		(uuid "69ddf7d0-1736-435f-b22c-bf020cc38a03")
 		(property "Reference" "C1038_1"
-			(at 359.41 215.9 0)
+			(at 359.41 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27709,7 +28245,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 359.41 220.98 0)
+			(at 359.41 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27720,7 +28256,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27731,7 +28267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27742,7 +28278,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27753,7 +28289,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27764,7 +28300,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27775,7 +28311,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27786,7 +28322,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27797,7 +28333,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27808,7 +28344,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27819,7 +28355,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27830,7 +28366,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 360.68 218.44 0)
+			(at 360.68 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30767,6 +31303,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:UFL Jack SMD")
+		(at 389.89 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "8506a0f0-e1c3-4fde-975d-2cd90457355c")
+		(property "Reference" "J4_1"
+			(at 387.35 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "UFL"
+			(at 392.43 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:TE_2334884-1"
+			(at 389.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "UMCC Gen 4 Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 389.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 384.302 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "571-2334884-1"
+			(at 384.302 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 384.302 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 384.302 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "2334884-1"
+			(at 384.302 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 389.89 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" "Surface Mount"
+			(at 389.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" ""
+			(at 389.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8933762-6a4f-458b-853c-2cb2ed4c7f48")
+		)
+		(pin "2"
+			(uuid "1059d03b-7242-45e0-8ba9-a40c4fa8c472")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "J4_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
 		(at 48.26 81.28 0)
 		(unit 1)
@@ -30954,7 +31663,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 391.16 223.52 0)
+		(at 391.16 243.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30964,7 +31673,7 @@
 		(dnp no)
 		(uuid "89096f2b-52a9-45c2-b67f-3f59a6a297fe")
 		(property "Reference" "#PWR0144"
-			(at 391.16 229.87 0)
+			(at 391.16 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30975,7 +31684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.16 227.33 0)
+			(at 391.16 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30985,7 +31694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 223.52 0)
+			(at 391.16 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30996,7 +31705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 223.52 0)
+			(at 391.16 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31007,7 +31716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 391.16 223.52 0)
+			(at 391.16 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31645,7 +32354,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:+3V3_PGA_BAR")
-		(at 391.16 208.28 180)
+		(at 391.16 228.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31655,7 +32364,7 @@
 		(dnp no)
 		(uuid "8f77e6f6-82fd-4c64-a855-bcc8f4c398ee")
 		(property "Reference" "#PWR0332"
-			(at 391.16 208.28 0)
+			(at 391.16 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31666,7 +32375,7 @@
 			)
 		)
 		(property "Value" "+3V3_PGA"
-			(at 391.16 204.47 0)
+			(at 391.16 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31676,7 +32385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 208.28 0)
+			(at 391.16 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31687,7 +32396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 208.28 0)
+			(at 391.16 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31698,7 +32407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+3V3_PGA'"
-			(at 391.16 208.28 0)
+			(at 391.16 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36726,7 +37435,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 391.16 218.44 0)
+		(at 391.16 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36736,7 +37445,7 @@
 		(dnp no)
 		(uuid "c2865656-7c9c-4f3c-b3c2-b276995c5873")
 		(property "Reference" "C1043_1"
-			(at 393.7 218.44 0)
+			(at 393.7 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36747,7 +37456,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 393.7 220.98 0)
+			(at 393.7 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36758,7 +37467,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 391.16 218.44 0)
+			(at 391.16 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36769,7 +37478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 218.44 0)
+			(at 391.16 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36780,7 +37489,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 391.16 218.44 0)
+			(at 391.16 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36791,7 +37500,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 374.032 229.87 0)
+			(at 374.032 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36803,7 +37512,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 391.66 223.44 0)
+			(at 391.66 243.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36815,7 +37524,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 388.906 212.852 0)
+			(at 388.906 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36827,7 +37536,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 388.906 212.852 0)
+			(at 388.906 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36839,7 +37548,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 388.906 212.852 0)
+			(at 388.906 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36851,7 +37560,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 388.906 212.852 0)
+			(at 388.906 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36863,7 +37572,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 388.906 212.852 0)
+			(at 388.906 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36875,7 +37584,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 391.16 218.44 0)
+			(at 391.16 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38125,7 +38834,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 10uF 25V X5R 0603")
-		(at 350.52 218.44 0)
+		(at 350.52 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -38136,7 +38845,7 @@
 		(dnp no)
 		(uuid "ce36eb56-c497-422b-9dfa-896fda85f01c")
 		(property "Reference" "C1039_1"
-			(at 349.25 215.9 0)
+			(at 349.25 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38147,7 +38856,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 349.25 220.98 0)
+			(at 349.25 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38158,7 +38867,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0603"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38169,7 +38878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38180,7 +38889,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38191,7 +38900,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38202,7 +38911,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38213,7 +38922,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38224,7 +38933,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM188R61E106MA3D"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38235,7 +38944,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38246,7 +38955,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38257,7 +38966,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM188R61E106MA73D"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38268,7 +38977,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 350.52 218.44 0)
+			(at 350.52 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38365,6 +39074,84 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
 					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 372.11 199.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3f13a9c-7b22-45b7-ae8d-01a3c29e4d81")
+		(property "Reference" "#PWR0195"
+			(at 372.11 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2882a1b-0b3e-4980-b02e-b7bdc8da4ffe")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -38744,7 +39531,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 350.52 223.52 0)
+		(at 350.52 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -38755,7 +39542,7 @@
 		(dnp no)
 		(uuid "d86bed99-0054-4680-9665-c115eab72ab3")
 		(property "Reference" "#PWR0175"
-			(at 350.52 229.87 0)
+			(at 350.52 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38766,7 +39553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 350.52 227.33 0)
+			(at 350.52 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38776,7 +39563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 223.52 0)
+			(at 350.52 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38787,7 +39574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 223.52 0)
+			(at 350.52 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38798,7 +39585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 350.52 223.52 0)
+			(at 350.52 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38822,7 +39609,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 335.28 223.52 0)
+		(at 335.28 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -38833,7 +39620,7 @@
 		(dnp no)
 		(uuid "d9b4dfb1-a822-4f27-8908-a9ee355cc106")
 		(property "Reference" "#PWR0179"
-			(at 335.28 229.87 0)
+			(at 335.28 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38844,7 +39631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 335.28 227.33 0)
+			(at 335.28 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38854,7 +39641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 223.52 0)
+			(at 335.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38865,7 +39652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 223.52 0)
+			(at 335.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38876,7 +39663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 223.52 0)
+			(at 335.28 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40603,7 +41390,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 381 218.44 0)
+		(at 381 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -40614,7 +41401,7 @@
 		(dnp no)
 		(uuid "eadc6c48-b87f-4be9-ac15-2fe1169d192d")
 		(property "Reference" "C1036_1"
-			(at 379.73 215.9 0)
+			(at 379.73 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40625,7 +41412,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 379.73 220.98 0)
+			(at 379.73 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40636,7 +41423,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40647,7 +41434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40658,7 +41445,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40669,7 +41456,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40680,7 +41467,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40691,7 +41478,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40702,7 +41489,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40713,7 +41500,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40724,7 +41511,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40735,7 +41522,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40746,7 +41533,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 381 218.44 0)
+			(at 381 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40773,7 +41560,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 360.68 223.52 0)
+		(at 360.68 243.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -40784,7 +41571,7 @@
 		(dnp no)
 		(uuid "ebb332ba-dde4-4b81-9e8e-dd7202ac4f31")
 		(property "Reference" "#PWR0169"
-			(at 360.68 229.87 0)
+			(at 360.68 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40795,7 +41582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.68 227.33 0)
+			(at 360.68 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40805,7 +41592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 223.52 0)
+			(at 360.68 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40816,7 +41603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 223.52 0)
+			(at 360.68 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40827,7 +41614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 223.52 0)
+			(at 360.68 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41492,7 +42279,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:CAP 10uF 25V X5R 0603")
-		(at 335.28 218.44 0)
+		(at 335.28 238.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -41503,7 +42290,7 @@
 		(dnp no)
 		(uuid "ef6c38d0-80ef-4168-a78f-f6521f8955e1")
 		(property "Reference" "C1040_1"
-			(at 334.01 215.9 0)
+			(at 334.01 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41514,7 +42301,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 334.01 220.98 0)
+			(at 334.01 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41525,7 +42312,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_C_0603"
-			(at 335.28 218.44 0)
+			(at 335.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41536,7 +42323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 218.44 0)
+			(at 335.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41547,7 +42334,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 335.28 218.44 0)
+			(at 335.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41558,7 +42345,7 @@
 			)
 		)
 		(property "PACKAGE" "0402"
-			(at 352.408 229.87 0)
+			(at 352.408 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41569,7 +42356,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" "25V"
-			(at 334.78 223.44 0)
+			(at 334.78 243.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41580,7 +42367,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 337.534 212.852 0)
+			(at 337.534 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41591,7 +42378,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "81-GRM188R61E106MA3D"
-			(at 337.534 212.852 0)
+			(at 337.534 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41602,7 +42389,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 338.231 212.852 0)
+			(at 338.231 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41613,7 +42400,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata"
-			(at 338.231 212.852 0)
+			(at 338.231 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41624,7 +42411,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" "GRM188R61E106MA73D"
-			(at 338.231 212.852 0)
+			(at 338.231 233.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41635,7 +42422,7 @@
 			)
 		)
 		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 335.28 218.44 0)
+			(at 335.28 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -11,9 +11,9 @@
       "+3V3_PGA",
       "+5V",
       "GND",
+      "-VBIAS",
       "-5V",
       "/CH1/+VPGA",
-      "-VBIAS",
       "+VBIAS",
       "+VUSB"
     ],
@@ -59,7 +59,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002223",
+    "visible_layers": "00000000_00000000_00000008_82002227",
     "zone_display_mode": 0
   },
   "git": {

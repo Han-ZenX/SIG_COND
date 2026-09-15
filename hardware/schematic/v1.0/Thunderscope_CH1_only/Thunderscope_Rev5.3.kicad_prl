@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -12,8 +12,8 @@
       "+5V",
       "GND",
       "-5V",
-      "/CH1/+VPGA",
       "+3V3_ACQ",
+      "/CH1/+VPGA",
       "-VBIAS",
       "+VBIAS",
       "+VUSB"
@@ -45,7 +45,6 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",

@@ -18838,8 +18838,8 @@
 		)
 		(uuid "1759e470-9092-4389-a91f-1c71366e47b4")
 	)
-	(label "AUX_N"
-		(at 374.65 182.88 180)
+	(label "AUX_R_N"
+		(at 375.92 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18928,8 +18928,8 @@
 		)
 		(uuid "754d5c6a-98b8-4ce0-90bc-96950d77c23b")
 	)
-	(label "AUX_P"
-		(at 374.65 180.34 180)
+	(label "AUX_R_P"
+		(at 375.92 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)

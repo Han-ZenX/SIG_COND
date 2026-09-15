@@ -221,7 +221,7 @@
 		)
 		(uuid "921516bc-4a3a-416c-a1d3-981c46d3e3cc")
 	)
-	(label "AUX_P"
+	(label "RF_P"
 		(at 130.81 99.06 180)
 		(effects
 			(font
@@ -251,7 +251,7 @@
 		)
 		(uuid "a3397087-f553-4ad0-b7d3-e06445d8c420")
 	)
-	(label "AUX_N"
+	(label "RF_N"
 		(at 130.81 101.6 180)
 		(effects
 			(font

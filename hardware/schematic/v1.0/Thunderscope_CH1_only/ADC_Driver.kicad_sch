@@ -2872,6 +2872,12 @@
 		(uuid "0d2a9efc-3eea-4069-b7e9-40386f68557c")
 	)
 	(junction
+		(at 142.24 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e041234-09d7-44ca-8458-fd119db123dd")
+	)
+	(junction
 		(at 176.53 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3020,12 +3026,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e8a749-4317-4987-ae4d-1eb9ddd09fba")
-	)
-	(junction
-		(at 172.72 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae89e542-12df-41c8-90fc-d187c97ab2cf")
 	)
 	(junction
 		(at 125.73 163.83)
@@ -3271,6 +3271,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 157.48) (xy 142.24 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca36bdc-2336-48a5-9122-a4d50429d189")
+	)
+	(wire
+		(pts
 			(xy 110.49 132.08) (xy 111.76 132.08)
 		)
 		(stroke
@@ -3331,16 +3341,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 142.24) (xy 172.72 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d57062-2121-4122-86d7-d3b00fad5c75")
-	)
-	(wire
-		(pts
 			(xy 143.51 83.82) (xy 143.51 86.36)
 		)
 		(stroke
@@ -3368,6 +3368,16 @@
 			(type default)
 		)
 		(uuid "3a1c8419-57ab-49d0-b731-fec3e72607d0")
+	)
+	(wire
+		(pts
+			(xy 142.24 157.48) (xy 142.24 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5510b0-a7b0-4479-a1d6-47a2d022770f")
 	)
 	(wire
 		(pts
@@ -3591,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 142.24) (xy 142.24 163.83)
+			(xy 142.24 142.24) (xy 142.24 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3608,16 +3618,6 @@
 			(type default)
 		)
 		(uuid "66185533-9ee3-4323-94b3-ccf868638bc3")
-	)
-	(wire
-		(pts
-			(xy 162.56 157.48) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66573c8e-ebf5-43ab-93f4-aaeb741d14a7")
 	)
 	(wire
 		(pts
@@ -4161,16 +4161,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 157.48) (xy 162.56 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d892a629-386d-4ef8-88d2-508b8c33cfeb")
-	)
-	(wire
-		(pts
 			(xy 168.91 83.82) (xy 168.91 86.36)
 		)
 		(stroke
@@ -4308,6 +4298,26 @@
 			(type default)
 		)
 		(uuid "fffa8eec-3e6f-4cae-bedd-a236dcf7f1a0")
+	)
+	(label "ADC_P"
+		(at 189.23 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b729907-086b-4994-9a85-6fcddeca9502")
+	)
+	(label "ADC_N"
+		(at 189.23 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "414c0a39-978e-4d2e-a3cb-42993533ad30")
 	)
 	(hierarchical_label "IN_N"
 		(shape input)

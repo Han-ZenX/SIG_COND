@@ -1998,6 +1998,17 @@
 		)
 		(uuid "169b3cda-853b-4940-a63c-d290bb072c14")
 	)
+	(hierarchical_label "VCM"
+		(shape output)
+		(at 92.71 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38e15084-c25a-43f8-aacf-b2d92544af19")
+	)
 	(hierarchical_label "PGA_SDIO"
 		(shape output)
 		(at 93.98 165.1 180)
@@ -2672,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x06_P1.27mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x06_P1.27mm_Horizontal"
 			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)

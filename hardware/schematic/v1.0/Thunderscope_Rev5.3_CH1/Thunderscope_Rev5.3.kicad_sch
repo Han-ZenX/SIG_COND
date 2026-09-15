@@ -730,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 109.22) (xy 147.32 109.22)
+			(xy 116.84 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 147.32 106.68)
+			(xy 116.84 107.95) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 147.32 116.84)
+			(xy 116.84 118.11) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 119.38) (xy 147.32 119.38)
+			(xy 116.84 120.65) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 147.32 114.3)
+			(xy 116.84 115.57) (xy 147.32 115.57)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 147.32 104.14)
+			(xy 116.84 105.41) (xy 147.32 105.41)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 129.54 99.06)
+			(xy 116.84 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 124.46) (xy 129.54 124.46)
+			(xy 116.84 125.73) (xy 129.54 125.73)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +859,7 @@
 		(uuid "071c1dcf-047d-4458-b760-5128970ef054")
 	)
 	(label "PGA_SCLK"
-		(at 129.54 104.14 180)
+		(at 129.54 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,7 +869,7 @@
 		(uuid "0c4174ae-d145-4076-8ba9-84f60e5db566")
 	)
 	(label "PGA_CSn_1"
-		(at 129.54 109.22 180)
+		(at 129.54 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +879,7 @@
 		(uuid "17039d8b-063b-42d2-8a96-2c3aa49c6c24")
 	)
 	(label "PGA_SDIO"
-		(at 129.54 106.68 180)
+		(at 129.54 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -889,7 +889,7 @@
 		(uuid "278406a0-e5c6-4b9a-a0d0-d2fe7d165701")
 	)
 	(label "ATTEN_1"
-		(at 129.54 116.84 180)
+		(at 129.54 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +909,7 @@
 		(uuid "921516bc-4a3a-416c-a1d3-981c46d3e3cc")
 	)
 	(label "TERM_1"
-		(at 129.54 114.3 180)
+		(at 129.54 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -929,7 +929,7 @@
 		(uuid "a21273ca-902d-4985-bec9-113429c25e92")
 	)
 	(label "DC_CPL_1"
-		(at 129.54 119.38 180)
+		(at 129.54 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -949,7 +949,7 @@
 		(uuid "c6cd1e99-3149-4210-9679-4c14f4ba95d1")
 	)
 	(label "TRIM_1"
-		(at 129.54 124.46 180)
+		(at 129.54 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(pin "ATTEN" output
-			(at 147.32 116.84 180)
+			(at 147.32 118.11 180)
 			(uuid "5462905e-bc7f-4e88-885e-6df55e26d28b")
 			(effects
 				(font
@@ -1057,7 +1057,7 @@
 			)
 		)
 		(pin "DC_CPL" output
-			(at 147.32 119.38 180)
+			(at 147.32 120.65 180)
 			(uuid "41a4a713-9e43-4185-ab59-f07e291e8f8d")
 			(effects
 				(font
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(pin "TERM" output
-			(at 147.32 114.3 180)
+			(at 147.32 115.57 180)
 			(uuid "84c8845b-3c8f-444f-ae59-c67a582d914d")
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 			)
 		)
 		(pin "PGA_SCLK" output
-			(at 147.32 104.14 180)
+			(at 147.32 105.41 180)
 			(uuid "4ef7cc88-6af2-4c65-8297-d1556551e273")
 			(effects
 				(font
@@ -1087,7 +1087,7 @@
 			)
 		)
 		(pin "PGA_SDIO" output
-			(at 147.32 106.68 180)
+			(at 147.32 107.95 180)
 			(uuid "b5bd782c-051f-473b-8bd3-33d9d837ee32")
 			(effects
 				(font
@@ -1097,8 +1097,18 @@
 			)
 		)
 		(pin "PGA_CSn" output
-			(at 147.32 109.22 180)
+			(at 147.32 110.49 180)
 			(uuid "2a24dec7-12db-4031-8ae1-3ada2ee2064e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCM" output
+			(at 147.32 99.06 180)
+			(uuid "e91d425b-9f62-4ce6-907a-e6d260dcaf98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1126,7 @@
 	)
 	(sheet
 		(at 99.06 83.82)
-		(size 17.78 43.18)
+		(size 17.78 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1143,7 +1153,7 @@
 			)
 		)
 		(property "Sheetfile" "FE_Channel.kicad_sch"
-			(at 99.06 127.5846 0)
+			(at 99.06 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1184,7 +1194,7 @@
 			)
 		)
 		(pin "TRIM" input
-			(at 116.84 124.46 0)
+			(at 116.84 125.73 0)
 			(uuid "5799b11a-84eb-4b68-82b0-764e63553f84")
 			(effects
 				(font
@@ -1194,7 +1204,7 @@
 			)
 		)
 		(pin "ATTEN" input
-			(at 116.84 116.84 0)
+			(at 116.84 118.11 0)
 			(uuid "6e64961b-65e0-4c97-a829-d9457a1db37e")
 			(effects
 				(font
@@ -1204,7 +1214,7 @@
 			)
 		)
 		(pin "DC_CPL" input
-			(at 116.84 119.38 0)
+			(at 116.84 120.65 0)
 			(uuid "d5d9b634-fb7f-4ccb-93e0-3242e9b6b55e")
 			(effects
 				(font
@@ -1214,7 +1224,7 @@
 			)
 		)
 		(pin "PGA_CSn" input
-			(at 116.84 109.22 0)
+			(at 116.84 110.49 0)
 			(uuid "735bafe7-3c40-43ed-86fa-515d1a317dd4")
 			(effects
 				(font
@@ -1224,7 +1234,7 @@
 			)
 		)
 		(pin "PGA_SCLK" input
-			(at 116.84 104.14 0)
+			(at 116.84 105.41 0)
 			(uuid "931b218c-d324-4f5c-9267-f100b17ad604")
 			(effects
 				(font
@@ -1234,7 +1244,7 @@
 			)
 		)
 		(pin "PGA_SDIO" input
-			(at 116.84 106.68 0)
+			(at 116.84 107.95 0)
 			(uuid "d82e72ef-47f0-4ba4-aaf2-1c66fc9e7c2b")
 			(effects
 				(font
@@ -1244,7 +1254,7 @@
 			)
 		)
 		(pin "TERM" input
-			(at 116.84 114.3 0)
+			(at 116.84 115.57 0)
 			(uuid "f8f8ddbe-079d-4e05-b12f-ae827a444781")
 			(effects
 				(font

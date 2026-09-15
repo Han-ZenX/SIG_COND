@@ -783,6 +783,14 @@
       {
         "netclass": "FE_100Z_Diff",
         "pattern": "*/OUT_N"
+      },
+      {
+        "netclass": "FE_100Z_Diff",
+        "pattern": "*/AUX_P"
+      },
+      {
+        "netclass": "FE_100Z_Diff",
+        "pattern": "*/AUX_N"
       }
     ]
   },

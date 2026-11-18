@@ -14,8 +14,8 @@
       "-5V",
       "/CH1/+VPGA",
       "-VBIAS",
-      "+VBIAS",
-      "+VUSB"
+      "+VUSB",
+      "+VBIAS"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,

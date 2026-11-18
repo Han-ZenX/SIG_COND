@@ -840,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 125.73) (xy 129.54 125.73)
+			(xy 116.84 125.73) (xy 147.32 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1109,6 +1109,16 @@
 		(pin "VCM" output
 			(at 147.32 99.06 180)
 			(uuid "e91d425b-9f62-4ce6-907a-e6d260dcaf98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRIM" output
+			(at 147.32 125.73 180)
+			(uuid "c1fc5539-0df2-4258-a5a3-b0a11b7c8b51")
 			(effects
 				(font
 					(size 1.27 1.27)

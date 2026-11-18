@@ -2094,6 +2094,17 @@
 		)
 		(uuid "18f28cb3-31df-47a0-8749-febd3e9d4a93")
 	)
+	(hierarchical_label "TERM"
+		(shape output)
+		(at 138.43 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3998d8a2-4cce-40e3-ae4a-2352b069afcd")
+	)
 	(hierarchical_label "OUT_P"
 		(shape input)
 		(at 99.06 50.8 0)
@@ -2104,6 +2115,17 @@
 			(justify left)
 		)
 		(uuid "3e1bd0c9-9515-47dd-ac40-122010614752")
+	)
+	(hierarchical_label "DC_CPL"
+		(shape output)
+		(at 138.43 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f64cfb6-ec7a-41fe-9407-e5ae451eab4d")
 	)
 	(hierarchical_label "PGA_SDIO"
 		(shape output)
@@ -2116,17 +2138,6 @@
 		)
 		(uuid "529a5ea0-c624-40e3-bcda-4012adda9e8d")
 	)
-	(hierarchical_label "DC_CPL"
-		(shape output)
-		(at 138.43 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "625063e8-8766-4242-9161-9748b02dddb1")
-	)
 	(hierarchical_label "AUX_N"
 		(shape input)
 		(at 172.72 95.25 0)
@@ -2137,28 +2148,6 @@
 			(justify left)
 		)
 		(uuid "684bf492-8edb-45d9-8fac-ff3346e0880b")
-	)
-	(hierarchical_label "VCM"
-		(shape output)
-		(at 138.43 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72bd6c48-8af7-4b4b-9542-a9257c3fe167")
-	)
-	(hierarchical_label "ATTEN"
-		(shape output)
-		(at 138.43 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8378fcb8-6e2a-400a-8477-4198db8bc075")
 	)
 	(hierarchical_label "PGA_CSn"
 		(shape output)
@@ -2182,6 +2171,28 @@
 		)
 		(uuid "98b0fab8-5a45-4203-892f-50df408c96bc")
 	)
+	(hierarchical_label "VCM"
+		(shape output)
+		(at 138.43 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a73facf9-5c6d-4ff6-b024-13d97696dc3f")
+	)
+	(hierarchical_label "ATTEN"
+		(shape output)
+		(at 138.43 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b832204f-942c-457d-866a-dedf3125944f")
+	)
 	(hierarchical_label "OUT_N"
 		(shape input)
 		(at 97.79 95.25 0)
@@ -2192,17 +2203,6 @@
 			(justify left)
 		)
 		(uuid "c5f32b23-2d96-433e-80c5-ca2dd677e970")
-	)
-	(hierarchical_label "TERM"
-		(shape output)
-		(at 138.43 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e41a6a4e-8423-40e8-99f3-86a89c08d5c2")
 	)
 	(symbol
 		(lib_id "JLCImport:KH-IPEX-K501-29")

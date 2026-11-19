@@ -2475,7 +2475,7 @@
 		(uuid "c6a8d1a2-23b2-418e-85e8-68116125254d")
 	)
 	(junction
-		(at 266.7 127)
+		(at 259.08 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22caf03b-0f23-4f8e-a9f3-49fa7860f327")
@@ -2499,16 +2499,10 @@
 		(uuid "4c0ff36f-bdfa-4fc1-ae57-36cbb1b3d2ad")
 	)
 	(junction
-		(at 266.7 124.46)
+		(at 259.08 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b2a323-1257-454c-b6e1-a5f7262471d6")
-	)
-	(junction
-		(at 210.82 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940c80f6-f4ea-47a9-8f9b-5402e026fad2")
 	)
 	(junction
 		(at 38.1 151.13)
@@ -2517,7 +2511,7 @@
 		(uuid "d3411c1e-da80-4bfd-bdde-29f232dbc0b0")
 	)
 	(junction
-		(at 266.7 129.54)
+		(at 259.08 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d95821aa-95e2-4204-9582-8da515ef43e2")
@@ -2558,17 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 218.44 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e905c47-4705-496d-9113-a363822b60e0")
-	)
-	(wire
-		(pts
-			(xy 262.89 132.08) (xy 266.7 132.08)
+			(xy 255.27 161.29) (xy 259.08 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 124.46) (xy 266.7 127)
+			(xy 259.08 153.67) (xy 259.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2598,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 129.54) (xy 266.7 129.54)
+			(xy 255.27 158.75) (xy 259.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 129.54) (xy 266.7 132.08)
+			(xy 259.08 158.75) (xy 259.08 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2645,16 +2629,6 @@
 			(type default)
 		)
 		(uuid "5bb33a84-639c-4a47-9c16-1c167871ae2b")
-	)
-	(wire
-		(pts
-			(xy 208.28 119.38) (xy 210.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf17ff8-cdb5-4dde-8a72-8c102db9aca8")
 	)
 	(wire
 		(pts
@@ -2688,17 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 123.19) (xy 218.44 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b47f5c7-43ad-4dd1-b55b-f016f87db46b")
-	)
-	(wire
-		(pts
-			(xy 262.89 124.46) (xy 266.7 124.46)
+			(xy 255.27 153.67) (xy 259.08 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2738,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 127) (xy 266.7 129.54)
+			(xy 259.08 156.21) (xy 259.08 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2868,26 +2832,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 210.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5fbb8b9-9611-4f82-a93e-a0724467b452")
-	)
-	(wire
-		(pts
-			(xy 210.82 119.38) (xy 210.82 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75458e3-74d7-4625-968c-51248ad5ae17")
-	)
-	(wire
-		(pts
 			(xy 66.04 151.13) (xy 81.28 151.13)
 		)
 		(stroke
@@ -2898,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 134.62) (xy 238.76 134.62)
+			(xy 229.87 134.62) (xy 233.68 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 121.92) (xy 266.7 121.92)
+			(xy 255.27 151.13) (xy 259.08 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2938,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 121.92) (xy 266.7 124.46)
+			(xy 259.08 151.13) (xy 259.08 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2948,17 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 218.44 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7129aa-6b4e-4498-8684-108764cbff74")
-	)
-	(wire
-		(pts
-			(xy 262.89 127) (xy 266.7 127)
+			(xy 255.27 156.21) (xy 259.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +5673,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:+VUSB")
-		(at 232.41 134.62 270)
+		(at 229.87 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5749,7 +5683,7 @@
 		(dnp no)
 		(uuid "9e8a0afe-0c19-4101-8740-ec57ccdf199e")
 		(property "Reference" "#PWR0289"
-			(at 232.41 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5760,7 +5694,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 228.6 134.62 0)
+			(at 226.06 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5770,7 +5704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +5715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +5726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+VUSB'"
-			(at 232.41 134.62 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 266.7 127 90)
+		(at 259.08 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6293,7 +6227,7 @@
 		(dnp no)
 		(uuid "c7b653fb-89b1-48e8-8eae-e91dbcff93bd")
 		(property "Reference" "#PWR0159"
-			(at 273.05 127 0)
+			(at 265.43 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 127 0)
+			(at 262.89 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6314,7 +6248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 127 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 127 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 127 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

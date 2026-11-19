@@ -1560,277 +1560,100 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 135.89 148.59)
+		(at 171.45 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04bdba26-f361-4c37-a7cd-ca2263bc8519")
+		(uuid "22caf03b-0f23-4f8e-a9f3-49fa7860f327")
 	)
 	(junction
-		(at 157.48 140.97)
+		(at 171.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08832fce-0a42-431a-9ed2-29472fe3a17f")
+		(uuid "93b2a323-1257-454c-b6e1-a5f7262471d6")
 	)
 	(junction
-		(at 130.81 144.78)
+		(at 123.19 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d5ce88f-b97b-4e13-9310-95e684173ed9")
+		(uuid "940c80f6-f4ea-47a9-8f9b-5402e026fad2")
 	)
 	(junction
-		(at 165.1 153.67)
+		(at 171.45 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d76cb75-22ad-41ee-8cf3-37f688583f98")
-	)
-	(junction
-		(at 121.92 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ed4dcc3-a7eb-4caf-8b8c-e64ec39fcd11")
-	)
-	(junction
-		(at 157.48 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b24ce21-405f-4c03-8b50-79db662c5fc6")
-	)
-	(junction
-		(at 157.48 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6ae9300-5483-4f25-b2d6-59ffd79848b4")
-	)
-	(junction
-		(at 157.48 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1f94109-3660-42e5-8b99-7c702d4a496f")
-	)
-	(junction
-		(at 121.92 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e53c1d48-4cb6-4a86-97fc-d6ddef9d2926")
-	)
-	(junction
-		(at 129.54 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f398e24c-a895-4844-bab4-ca47a0af870e")
-	)
-	(junction
-		(at 127 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a1d273-0c16-4aef-872b-e75f5c8075a4")
+		(uuid "d95821aa-95e2-4204-9582-8da515ef43e2")
 	)
 	(wire
 		(pts
-			(xy 157.48 146.05) (xy 157.48 148.59)
+			(xy 114.3 132.08) (xy 130.81 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "027bf347-a00a-459e-b082-17543aa1ef99")
+		(uuid "00868472-de2b-41d4-b857-eafc38a24e7c")
 	)
 	(wire
 		(pts
-			(xy 116.84 163.83) (xy 121.92 163.83)
+			(xy 123.19 124.46) (xy 130.81 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07ed178f-8be6-444c-9793-de148d596908")
+		(uuid "0e905c47-4705-496d-9113-a363822b60e0")
 	)
 	(wire
 		(pts
-			(xy 135.89 138.43) (xy 135.89 148.59)
+			(xy 167.64 129.54) (xy 171.45 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bff6083-87d2-4955-8edf-7a2f2164a3b9")
+		(uuid "12e400e5-98b8-4bb9-b491-878d4ea2a98c")
 	)
 	(wire
 		(pts
-			(xy 128.27 144.78) (xy 129.54 144.78)
+			(xy 171.45 121.92) (xy 171.45 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "189ad8f8-f28a-4302-b760-e4bfac3f52d7")
+		(uuid "16cc3f22-df95-44c9-8ebc-1e0fed9805fb")
 	)
 	(wire
 		(pts
-			(xy 130.81 143.51) (xy 130.81 144.78)
+			(xy 119.38 129.54) (xy 130.81 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aeaf7bc-df1b-4668-ad56-3d67892682e0")
+		(uuid "19e80ef3-66b9-4ea9-a0b2-6989164d1965")
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 157.48 146.05)
+			(xy 167.64 127) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dd1df64-b9ac-4a9f-b7db-c6b5a85f4e97")
+		(uuid "1bf22b31-e11c-47e7-b15a-d0296e9944dc")
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 157.48 146.05)
+			(xy 171.45 127) (xy 171.45 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fc8572a-973e-42cd-8285-feb633f3c2d9")
-	)
-	(wire
-		(pts
-			(xy 153.67 148.59) (xy 157.48 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e457f62-bfd3-4f7d-bf59-629c7ab867ee")
-	)
-	(wire
-		(pts
-			(xy 153.67 140.97) (xy 157.48 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b914db0-9f80-426c-920f-77eea746bde6")
+		(uuid "41834466-4e84-4d05-95df-988a761944ef")
 	)
 	(wire
 		(pts
@@ -1844,23 +1667,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 153.67) (xy 138.43 153.67)
+			(xy 120.65 123.19) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ec8c870-2b93-4dac-bd3e-1389b92359a8")
-	)
-	(wire
-		(pts
-			(xy 157.48 140.97) (xy 157.48 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611a44ff-15f4-42e6-944e-8ead66614bd5")
+		(uuid "5bf17ff8-cdb5-4dde-8a72-8c102db9aca8")
 	)
 	(wire
 		(pts
@@ -1874,6 +1687,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 127) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b47f5c7-43ad-4dd1-b55b-f016f87db46b")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 171.45 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843bb04b-3782-4627-8bde-e1791badbf82")
+	)
+	(wire
+		(pts
 			(xy 83.82 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -1884,83 +1717,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 151.13) (xy 157.48 151.13)
+			(xy 171.45 124.46) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f976932-9f2c-437b-8755-e646b57e6185")
+		(uuid "9ba9f91a-7d98-4a22-980c-8b60b92d9376")
 	)
 	(wire
 		(pts
-			(xy 130.81 146.05) (xy 138.43 146.05)
+			(xy 167.64 132.08) (xy 179.07 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90d743e0-c4e7-4731-b455-28ee576f2d65")
-	)
-	(wire
-		(pts
-			(xy 153.67 153.67) (xy 165.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6ce280-a124-4daf-bca2-016b28b7ab81")
-	)
-	(wire
-		(pts
-			(xy 121.92 153.67) (xy 121.92 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ffc5b1b-2fb5-47ca-85c1-a101aae04185")
-	)
-	(wire
-		(pts
-			(xy 129.54 133.35) (xy 129.54 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a238a5f4-99b1-4551-94b5-f5d1f8912767")
-	)
-	(wire
-		(pts
-			(xy 130.81 143.51) (xy 138.43 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62ca6a8-dc9e-4e74-a636-803157ed8421")
-	)
-	(wire
-		(pts
-			(xy 135.89 148.59) (xy 138.43 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d93b8a-fac2-4de2-b0ee-2b08d1a6e4f1")
-	)
-	(wire
-		(pts
-			(xy 130.81 144.78) (xy 130.81 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa95a97f-a5a8-4525-b93b-eb6f4b877a36")
+		(uuid "ae380b0f-6112-42d2-8f42-c5927fe6473b")
 	)
 	(wire
 		(pts
@@ -1974,103 +1747,73 @@
 	)
 	(wire
 		(pts
-			(xy 127 151.13) (xy 127 163.83)
+			(xy 123.19 121.92) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3223aee-6841-45f3-a0b5-8dd2da2ed301")
+		(uuid "d5fbb8b9-9611-4f82-a93e-a0724467b452")
 	)
 	(wire
 		(pts
-			(xy 127 151.13) (xy 138.43 151.13)
+			(xy 123.19 123.19) (xy 123.19 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b69696af-2cbf-4ebd-967f-dc964d9801f9")
+		(uuid "d75458e3-74d7-4625-968c-51248ad5ae17")
 	)
 	(wire
 		(pts
-			(xy 121.92 140.97) (xy 138.43 140.97)
+			(xy 114.3 119.38) (xy 130.81 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b89142b3-c2cb-4bfe-9ed9-6febf03db0bb")
+		(uuid "e31180d9-e565-4d71-89d5-c11e1d8baea6")
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 135.89 148.59)
+			(xy 167.64 119.38) (xy 171.45 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08d4716-0578-411a-a752-83a71e067cde")
+		(uuid "eabb9f26-199b-4d05-87f4-54856c26774b")
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78) (xy 130.81 144.78)
+			(xy 171.45 119.38) (xy 171.45 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc4b9780-92b3-4a22-9115-eb14d877c84e")
+		(uuid "ecd981cf-addf-490a-ba8f-14762dbc3541")
 	)
 	(wire
 		(pts
-			(xy 157.48 148.59) (xy 157.48 151.13)
+			(xy 123.19 121.92) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da702ea4-6ee9-46e5-8990-434f276b2209")
+		(uuid "ee7129aa-6b4e-4498-8684-108764cbff74")
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 157.48 143.51)
+			(xy 167.64 124.46) (xy 171.45 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc548b64-77c2-4f72-a41f-7b1e0f92d316")
-	)
-	(wire
-		(pts
-			(xy 165.1 147.32) (xy 165.1 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6afad77-f405-4c42-a66c-a732f700b817")
-	)
-	(wire
-		(pts
-			(xy 121.92 139.7) (xy 121.92 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70e0de3-8d9c-428d-9935-2a4ffb76186c")
-	)
-	(wire
-		(pts
-			(xy 157.48 138.43) (xy 157.48 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7489a78-bbba-416a-9033-990cbf186b9b")
+		(uuid "f76309b2-58a5-46a9-ba9f-aba1dc135762")
 	)
 	(hierarchical_label "AUX_P"
 		(shape input)
@@ -2083,16 +1826,27 @@
 		)
 		(uuid "169b3cda-853b-4940-a63c-d290bb072c14")
 	)
-	(hierarchical_label "TRIM"
+	(hierarchical_label "PGA_CSn"
 		(shape output)
-		(at 153.67 163.83 0)
+		(at 138.43 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "18f28cb3-31df-47a0-8749-febd3e9d4a93")
+		(uuid "19119075-6d46-455e-8709-763c0ab31b51")
+	)
+	(hierarchical_label "PGA_SCLK"
+		(shape output)
+		(at 138.43 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33be7283-8f0e-4df0-8b09-bb2ba446f640")
 	)
 	(hierarchical_label "TERM"
 		(shape output)
@@ -2127,17 +1881,6 @@
 		)
 		(uuid "4f64cfb6-ec7a-41fe-9407-e5ae451eab4d")
 	)
-	(hierarchical_label "PGA_SDIO"
-		(shape output)
-		(at 153.67 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "529a5ea0-c624-40e3-bcda-4012adda9e8d")
-	)
 	(hierarchical_label "AUX_N"
 		(shape input)
 		(at 172.72 95.25 0)
@@ -2149,38 +1892,27 @@
 		)
 		(uuid "684bf492-8edb-45d9-8fac-ff3346e0880b")
 	)
-	(hierarchical_label "PGA_CSn"
+	(hierarchical_label "TRIM"
 		(shape output)
-		(at 153.67 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8aafc365-5b63-4905-8db5-8fe8e62dc088")
-	)
-	(hierarchical_label "PGA_SCLK"
-		(shape output)
-		(at 153.67 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98b0fab8-5a45-4203-892f-50df408c96bc")
-	)
-	(hierarchical_label "VCM"
-		(shape output)
-		(at 138.43 156.21 180)
+		(at 138.43 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a73facf9-5c6d-4ff6-b024-13d97696dc3f")
+		(uuid "83c48d1c-b350-4ae0-96a5-4f159a8dcd7d")
+	)
+	(hierarchical_label "PGA_SDIO"
+		(shape output)
+		(at 138.43 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a6fea4b-0d1c-4f61-a58d-70d976a088a6")
 	)
 	(hierarchical_label "ATTEN"
 		(shape output)
@@ -2203,6 +1935,17 @@
 			(justify left)
 		)
 		(uuid "c5f32b23-2d96-433e-80c5-ca2dd677e970")
+	)
+	(hierarchical_label "VCM"
+		(shape output)
+		(at 138.43 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1a07e98-c908-4a11-b7b8-2df62d3ff6a3")
 	)
 	(symbol
 		(lib_id "JLCImport:KH-IPEX-K501-29")
@@ -2323,8 +2066,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 127 163.83 180)
+		(lib_id "Thunderscope_Rev5:-5V_BAR")
+		(at 123.19 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2332,10 +2075,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03665250-4820-4da8-954d-9ceb6d078caa")
-		(property "Reference" "#FLG04"
-			(at 127 165.735 0)
+		(uuid "0769c72b-2781-4cff-89d9-a4115515c3f1")
+		(property "Reference" "#PWR0311"
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,8 +2087,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 127 168.91 0)
+		(property "Value" "-5V"
+			(at 119.38 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2356,7 +2098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 163.83 0)
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 163.83 0)
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,8 +2119,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 127 163.83 0)
+		(property "Description" "Power symbol creates a global label with name '-5V'"
+			(at 123.19 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2388,90 +2130,13 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "149f4245-4190-43b4-ad15-d1532cf1e67e")
+		(pin ""
+			(uuid "a0533582-f2c9-4688-9585-50261e6c3072")
 		)
 		(instances
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:GND")
-		(at 157.48 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0b20b5c6-aa05-4c7d-b2c3-1e12d9bbc04a")
-		(property "Reference" "#PWR0159"
-			(at 163.83 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dea0ee0-0fad-4b1e-aec9-640026dedc63")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0159")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -2549,239 +2214,6 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
 					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 116.84 163.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ac7348a-1e0e-481d-93ea-424e35c89f40")
-		(property "Reference" "#FLG05"
-			(at 116.84 165.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 116.84 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 116.84 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97d11457-0288-45fd-9d36-2011574930d4")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 135.89 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2714d4f7-8eeb-4037-bb09-d3aa57aac4fa")
-		(property "Reference" "#FLG03"
-			(at 135.89 136.525 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 135.89 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d51eedad-df3f-4faf-ae98-3e983056cfac")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 157.48 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2888b099-b0f8-4703-961c-4c063834982f")
-		(property "Reference" "#FLG07"
-			(at 157.48 136.525 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 157.48 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 157.48 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "668ef3d9-b43c-4b46-8d2a-2a310ee6b8c7")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -3060,8 +2492,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 165.1 147.32 0)
+		(lib_id "Thunderscope_Rev5:+3V3_PGA_BAR")
+		(at 119.38 129.54 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3069,10 +2501,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "397986ad-e3cc-46af-8f30-236696294891")
-		(property "Reference" "#FLG06"
-			(at 165.1 145.415 0)
+		(uuid "3a6ebe24-3968-47db-bf3f-79c8904d88cd")
+		(property "Reference" "#PWR0323"
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,8 +2513,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 165.1 142.24 0)
+		(property "Value" "+3V3_PGA"
+			(at 115.57 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3093,7 +2524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 147.32 0)
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +2535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 147.32 0)
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,8 +2545,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 165.1 147.32 0)
+		(property "Description" "Power symbol creates a global label with name '+3V3_PGA'"
+			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3125,13 +2556,13 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "3ba138e4-c0af-4853-b00c-55f6bd2752b1")
+		(pin ""
+			(uuid "bc04eb09-23fb-4d15-98c9-827faa2fd210")
 		)
 		(instances
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG06")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -3215,6 +2646,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:+VBIAS_BAR")
+		(at 114.3 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d43d76e-fcc8-4534-8c60-c00ae82305d8")
+		(property "Reference" "#PWR0298"
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBIAS"
+			(at 110.49 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '+VBIAS'"
+			(at 114.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "66562cfc-e07f-4d6c-85cb-1ca8333a9cca")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
+					(reference "#PWR0298")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
 		(at 133.35 50.8 270)
 		(unit 1)
@@ -3286,6 +2794,83 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
 					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:+5V_BAR")
+		(at 120.65 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50070754-a6b9-454a-b078-37ab82876c82")
+		(property "Reference" "#PWR0319"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 116.84 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '+5V'"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "a852f982-6a10-4126-bfca-7e791185d01c")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -3369,83 +2954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:+3V3_PGA_BAR")
-		(at 127 151.13 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d86064c-3d08-47c7-8005-bbe6e506a841")
-		(property "Reference" "#PWR0323"
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_PGA"
-			(at 123.19 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '+3V3_PGA'"
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "01d2e279-9877-4ceb-ab16-c56589b0ee5c")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0323")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
 		(at 71.12 82.55 180)
 		(unit 1)
@@ -3517,160 +3025,6 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
 					(reference "#PWR0150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:-5V_BAR")
-		(at 130.81 148.59 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "711c1dae-0bfe-4420-b1c6-36db4ed8863e")
-		(property "Reference" "#PWR0311"
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-5V"
-			(at 127 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '-5V'"
-			(at 130.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "dca76cdc-3fbf-4bb2-a17f-0e3bc686a9ba")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:-VBIAS_BAR")
-		(at 165.1 153.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76b4217e-bfcd-4bce-88d5-e70af378c9c7")
-		(property "Reference" "#PWR0306"
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-VBIAS"
-			(at 168.91 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '-VBIAS'"
-			(at 165.1 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3776cc05-3eca-4139-8db7-42a77ed6b094")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -3754,83 +3108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 129.54 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7cbccf41-de7d-4aca-bccb-affdfa1d3cf7")
-		(property "Reference" "#FLG02"
-			(at 129.54 131.445 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 129.032 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95bce9a1-ede0-430f-9735-09499e5efda4")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
 		(at 146.05 107.95 0)
 		(unit 1)
@@ -3908,8 +3185,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:+VBIAS_BAR")
-		(at 121.92 153.67 270)
+		(lib_id "Thunderscope_Rev5:+VUSB")
+		(at 114.3 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3917,9 +3194,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a592d4e-e254-49fd-a821-1b3497aacd85")
-		(property "Reference" "#PWR0298"
-			(at 121.92 153.67 0)
+		(uuid "9e8a0afe-0c19-4101-8740-ec57ccdf199e")
+		(property "Reference" "#PWR0289"
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,8 +3206,8 @@
 				)
 			)
 		)
-		(property "Value" "+VBIAS"
-			(at 118.11 153.67 0)
+		(property "Value" "+VUSB"
+			(at 110.49 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 153.67 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 153.67 0)
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,8 +3238,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name '+VBIAS'"
-			(at 121.92 153.67 0)
+		(property "Description" "Power symbol creates a global label with name '+VUSB'"
+			(at 114.3 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,12 +3250,12 @@
 			)
 		)
 		(pin ""
-			(uuid "90b905c6-2485-4691-9ccf-5667bed317bf")
+			(uuid "a6e09de8-cf60-4ed3-9c68-6ab67b948ca2")
 		)
 		(instances
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0298")
+					(reference "#PWR0289")
 					(unit 1)
 				)
 			)
@@ -4257,83 +3534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 121.92 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8b1272e-65dc-4466-890a-c3e93339b1e1")
-		(property "Reference" "#FLG01"
-			(at 121.92 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 121.92 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 121.92 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e0020aec-cac1-4a4a-8792-e0b6e47193d1")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:KH-IPEX-K501-29")
 		(at 146.05 50.8 270)
 		(unit 1)
@@ -4452,8 +3652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:+5V_BAR")
-		(at 128.27 144.78 270)
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 171.45 124.46 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4461,9 +3661,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bf136431-b940-4128-be1f-22782386ed0d")
-		(property "Reference" "#PWR0319"
-			(at 128.27 144.78 0)
+		(uuid "c7b653fb-89b1-48e8-8eae-e91dbcff93bd")
+		(property "Reference" "#PWR0159"
+			(at 177.8 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,8 +3673,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 124.46 144.78 0)
+		(property "Value" "GND"
+			(at 175.26 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4484,7 +3684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 144.78 0)
+			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +3695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 144.78 0)
+			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4505,8 +3705,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name '+5V'"
-			(at 128.27 144.78 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4516,13 +3716,13 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "22735c82-73b0-488e-ad11-f0eb609507e1")
+		(pin "1"
+			(uuid "c323ad91-f0ae-4d1a-8a66-05d8ed67fb26")
 		)
 		(instances
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0319")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -4600,6 +3800,83 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:-VBIAS_BAR")
+		(at 179.07 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6ddefa6-5ba9-4109-b61d-5897658607c6")
+		(property "Reference" "#PWR0306"
+			(at 179.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-VBIAS"
+			(at 182.88 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '-VBIAS'"
+			(at 179.07 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "496821a5-b7dc-4c27-a16c-bfa3710d4f6a")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -4766,83 +4043,6 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
 					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:+VUSB")
-		(at 121.92 140.97 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ff4ae13e-04de-4138-b280-02c1dbb4817f")
-		(property "Reference" "#PWR0289"
-			(at 121.92 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VUSB"
-			(at 118.11 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '+VUSB'"
-			(at 121.92 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d929d711-c702-4e60-b877-677e213046ca")
-		)
-		(instances
-			(project "Thunderscope_Rev5.3"
-				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/9254d173-060d-42e9-8c63-0f2bbf04d916"
-					(reference "#PWR0289")
 					(unit 1)
 				)
 			)

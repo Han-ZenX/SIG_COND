@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -14,8 +14,8 @@
       "-5V",
       "/CH1/+VPGA",
       "-VBIAS",
-      "+VUSB",
-      "+VBIAS"
+      "+VBIAS",
+      "+VUSB"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
@@ -60,7 +60,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002777",
+    "visible_layers": "00000000_00000000_00000008_8208a7ff",
     "zone_display_mode": 0
   },
   "git": {

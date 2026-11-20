@@ -730,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 147.32 110.49)
+			(xy 123.19 106.68) (xy 153.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -740,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 147.32 107.95)
+			(xy 123.19 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -750,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 147.32 118.11)
+			(xy 123.19 114.3) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -760,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 120.65) (xy 147.32 120.65)
+			(xy 123.19 116.84) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +770,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 147.32 88.9)
+			(xy 123.19 85.09) (xy 153.67 85.09)
 		)
 		(stroke
 			(width 0)
@@ -780,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 147.32 92.71)
+			(xy 123.19 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +790,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 147.32 86.36)
+			(xy 123.19 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 147.32 115.57)
+			(xy 123.19 111.76) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -810,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 147.32 95.25)
+			(xy 123.19 91.44) (xy 153.67 91.44)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 147.32 105.41)
+			(xy 123.19 101.6) (xy 153.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 147.32 99.06)
+			(xy 123.19 95.25) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 147.32 101.6)
+			(xy 123.19 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 125.73) (xy 147.32 125.73)
+			(xy 123.19 121.92) (xy 153.67 121.92)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +859,7 @@
 		(uuid "e7646403-25ab-47a5-af71-3fd67c29e11f")
 	)
 	(label "CH1_N"
-		(at 129.54 88.9 180)
+		(at 135.89 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -869,7 +869,7 @@
 		(uuid "071c1dcf-047d-4458-b760-5128970ef054")
 	)
 	(label "PGA_SCLK"
-		(at 129.54 105.41 180)
+		(at 135.89 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +879,7 @@
 		(uuid "0c4174ae-d145-4076-8ba9-84f60e5db566")
 	)
 	(label "PGA_CSn_1"
-		(at 129.54 110.49 180)
+		(at 135.89 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -889,7 +889,7 @@
 		(uuid "17039d8b-063b-42d2-8a96-2c3aa49c6c24")
 	)
 	(label "PGA_SDIO"
-		(at 129.54 107.95 180)
+		(at 135.89 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -899,7 +899,7 @@
 		(uuid "278406a0-e5c6-4b9a-a0d0-d2fe7d165701")
 	)
 	(label "ATTEN_1"
-		(at 129.54 118.11 180)
+		(at 135.89 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -909,7 +909,7 @@
 		(uuid "6f049e27-d4e7-4328-8985-4303b744fae5")
 	)
 	(label "AUX_VCM"
-		(at 129.54 101.6 180)
+		(at 135.89 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -919,7 +919,7 @@
 		(uuid "8a80f52c-029f-4eed-a41f-806a22512115")
 	)
 	(label "VCM"
-		(at 129.54 99.06 180)
+		(at 135.89 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -929,7 +929,7 @@
 		(uuid "921516bc-4a3a-416c-a1d3-981c46d3e3cc")
 	)
 	(label "TERM_1"
-		(at 129.54 115.57 180)
+		(at 135.89 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +939,7 @@
 		(uuid "96855067-c6a7-4335-94e9-e556f06c373a")
 	)
 	(label "CH1_AUX_P"
-		(at 129.54 92.71 180)
+		(at 135.89 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -949,7 +949,7 @@
 		(uuid "a21273ca-902d-4985-bec9-113429c25e92")
 	)
 	(label "DC_CPL_1"
-		(at 129.54 120.65 180)
+		(at 135.89 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -959,7 +959,7 @@
 		(uuid "a3397087-f553-4ad0-b7d3-e06445d8c420")
 	)
 	(label "CH1_P"
-		(at 129.54 86.36 180)
+		(at 135.89 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -969,7 +969,7 @@
 		(uuid "c6cd1e99-3149-4210-9679-4c14f4ba95d1")
 	)
 	(label "TRIM_1"
-		(at 129.54 125.73 180)
+		(at 135.89 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -979,7 +979,7 @@
 		(uuid "ddfcb596-309c-490b-872b-37256a38e30b")
 	)
 	(label "CH1_AUX_N"
-		(at 129.54 95.25 180)
+		(at 135.89 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -988,8 +988,219 @@
 		)
 		(uuid "df951c21-3dad-4e13-8946-9358b1d15102")
 	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:TP KEYSTONE 5019")
+		(at 222.25 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "32f010bc-d7bd-4044-804a-b3b6b31bb338")
+		(property "Reference" "T1"
+			(at 226.06 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5019"
+			(at 226.06 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:KEY_5019"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PC Test Point, Miniature Phosphor Bronze Silver Plating Surface Mount Mounting Type"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "534-5019"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "5019"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4febb2df-22bb-4989-90a8-0be9a70afdcb")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 222.25 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "748cd499-2502-460a-a2d5-0f5da9971e7a")
+		(property "Reference" "#PWR0135"
+			(at 222.25 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75171dcc-7ba8-4683-862b-c97941e56105")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 147.32 83.82)
+		(at 153.67 80.01)
 		(size 21.59 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1005,7 +1216,7 @@
 		)
 		(uuid "9254d173-060d-42e9-8c63-0f2bbf04d916")
 		(property "Sheetname" "IO"
-			(at 147.32 83.1084 0)
+			(at 153.67 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1016,7 +1227,7 @@
 			)
 		)
 		(property "Sheetfile" "External_IO.kicad_sch"
-			(at 147.32 128.8546 0)
+			(at 153.67 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1027,7 +1238,7 @@
 			)
 		)
 		(pin "OUT_N" input
-			(at 147.32 88.9 180)
+			(at 153.67 85.09 180)
 			(uuid "501c4af1-69b6-485a-994a-cd701b84ef68")
 			(effects
 				(font
@@ -1037,7 +1248,7 @@
 			)
 		)
 		(pin "OUT_P" input
-			(at 147.32 86.36 180)
+			(at 153.67 82.55 180)
 			(uuid "29599505-2aaa-4d78-b970-7371cebb54bf")
 			(effects
 				(font
@@ -1047,7 +1258,7 @@
 			)
 		)
 		(pin "AUX_P" input
-			(at 147.32 92.71 180)
+			(at 153.67 88.9 180)
 			(uuid "8734d0a5-809b-4895-b882-6c3d1274b590")
 			(effects
 				(font
@@ -1057,7 +1268,7 @@
 			)
 		)
 		(pin "AUX_N" input
-			(at 147.32 95.25 180)
+			(at 153.67 91.44 180)
 			(uuid "fa159453-be16-4db5-b467-e8e115197fc0")
 			(effects
 				(font
@@ -1067,7 +1278,7 @@
 			)
 		)
 		(pin "ATTEN" output
-			(at 147.32 118.11 180)
+			(at 153.67 114.3 180)
 			(uuid "5462905e-bc7f-4e88-885e-6df55e26d28b")
 			(effects
 				(font
@@ -1077,7 +1288,7 @@
 			)
 		)
 		(pin "DC_CPL" output
-			(at 147.32 120.65 180)
+			(at 153.67 116.84 180)
 			(uuid "41a4a713-9e43-4185-ab59-f07e291e8f8d")
 			(effects
 				(font
@@ -1087,7 +1298,7 @@
 			)
 		)
 		(pin "TERM" output
-			(at 147.32 115.57 180)
+			(at 153.67 111.76 180)
 			(uuid "84c8845b-3c8f-444f-ae59-c67a582d914d")
 			(effects
 				(font
@@ -1097,7 +1308,7 @@
 			)
 		)
 		(pin "PGA_SCLK" output
-			(at 147.32 105.41 180)
+			(at 153.67 101.6 180)
 			(uuid "4ef7cc88-6af2-4c65-8297-d1556551e273")
 			(effects
 				(font
@@ -1107,7 +1318,7 @@
 			)
 		)
 		(pin "PGA_SDIO" output
-			(at 147.32 107.95 180)
+			(at 153.67 104.14 180)
 			(uuid "b5bd782c-051f-473b-8bd3-33d9d837ee32")
 			(effects
 				(font
@@ -1117,7 +1328,7 @@
 			)
 		)
 		(pin "PGA_CSn" output
-			(at 147.32 110.49 180)
+			(at 153.67 106.68 180)
 			(uuid "2a24dec7-12db-4031-8ae1-3ada2ee2064e")
 			(effects
 				(font
@@ -1127,7 +1338,7 @@
 			)
 		)
 		(pin "VCM" output
-			(at 147.32 99.06 180)
+			(at 153.67 95.25 180)
 			(uuid "e91d425b-9f62-4ce6-907a-e6d260dcaf98")
 			(effects
 				(font
@@ -1137,7 +1348,7 @@
 			)
 		)
 		(pin "TRIM" output
-			(at 147.32 125.73 180)
+			(at 153.67 121.92 180)
 			(uuid "c1fc5539-0df2-4258-a5a3-b0a11b7c8b51")
 			(effects
 				(font
@@ -1147,7 +1358,7 @@
 			)
 		)
 		(pin "AUX_VCM" output
-			(at 147.32 101.6 180)
+			(at 153.67 97.79 180)
 			(uuid "8c223a06-2ecd-458e-a24f-35a83e6522d6")
 			(effects
 				(font
@@ -1165,7 +1376,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 83.82)
+		(at 105.41 80.01)
 		(size 17.78 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1182,7 +1393,7 @@
 		)
 		(uuid "f35774a1-d397-4f7e-9c64-3142469f9c73")
 		(property "Sheetname" "CH1"
-			(at 99.06 83.1084 0)
+			(at 105.41 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,7 +1404,7 @@
 			)
 		)
 		(property "Sheetfile" "FE_Channel.kicad_sch"
-			(at 99.06 128.8546 0)
+			(at 105.41 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1204,7 +1415,7 @@
 			)
 		)
 		(pin "OUT_P" output
-			(at 116.84 86.36 0)
+			(at 123.19 82.55 0)
 			(uuid "0a3e7ee0-e708-48b1-bbb5-0bb26759e813")
 			(effects
 				(font
@@ -1214,7 +1425,7 @@
 			)
 		)
 		(pin "VCM" input
-			(at 116.84 99.06 0)
+			(at 123.19 95.25 0)
 			(uuid "d2d20c81-60ba-44cb-9236-8b5e2714c568")
 			(effects
 				(font
@@ -1224,7 +1435,7 @@
 			)
 		)
 		(pin "OUT_N" output
-			(at 116.84 88.9 0)
+			(at 123.19 85.09 0)
 			(uuid "ed19fd4c-202c-4eb1-a642-0a5fb5a53cee")
 			(effects
 				(font
@@ -1234,7 +1445,7 @@
 			)
 		)
 		(pin "TRIM" input
-			(at 116.84 125.73 0)
+			(at 123.19 121.92 0)
 			(uuid "5799b11a-84eb-4b68-82b0-764e63553f84")
 			(effects
 				(font
@@ -1244,7 +1455,7 @@
 			)
 		)
 		(pin "ATTEN" input
-			(at 116.84 118.11 0)
+			(at 123.19 114.3 0)
 			(uuid "6e64961b-65e0-4c97-a829-d9457a1db37e")
 			(effects
 				(font
@@ -1254,7 +1465,7 @@
 			)
 		)
 		(pin "DC_CPL" input
-			(at 116.84 120.65 0)
+			(at 123.19 116.84 0)
 			(uuid "d5d9b634-fb7f-4ccb-93e0-3242e9b6b55e")
 			(effects
 				(font
@@ -1264,7 +1475,7 @@
 			)
 		)
 		(pin "PGA_CSn" input
-			(at 116.84 110.49 0)
+			(at 123.19 106.68 0)
 			(uuid "735bafe7-3c40-43ed-86fa-515d1a317dd4")
 			(effects
 				(font
@@ -1274,7 +1485,7 @@
 			)
 		)
 		(pin "PGA_SCLK" input
-			(at 116.84 105.41 0)
+			(at 123.19 101.6 0)
 			(uuid "931b218c-d324-4f5c-9267-f100b17ad604")
 			(effects
 				(font
@@ -1284,7 +1495,7 @@
 			)
 		)
 		(pin "PGA_SDIO" input
-			(at 116.84 107.95 0)
+			(at 123.19 104.14 0)
 			(uuid "d82e72ef-47f0-4ba4-aaf2-1c66fc9e7c2b")
 			(effects
 				(font
@@ -1294,7 +1505,7 @@
 			)
 		)
 		(pin "TERM" input
-			(at 116.84 115.57 0)
+			(at 123.19 111.76 0)
 			(uuid "f8f8ddbe-079d-4e05-b12f-ae827a444781")
 			(effects
 				(font
@@ -1304,7 +1515,7 @@
 			)
 		)
 		(pin "AUX_P" output
-			(at 116.84 92.71 0)
+			(at 123.19 88.9 0)
 			(uuid "6364f069-8114-4684-a0fd-e253150653a3")
 			(effects
 				(font
@@ -1314,7 +1525,7 @@
 			)
 		)
 		(pin "AUX_N" output
-			(at 116.84 95.25 0)
+			(at 123.19 91.44 0)
 			(uuid "ff524d51-2087-4337-9a0c-f58cd01a686b")
 			(effects
 				(font
@@ -1324,7 +1535,7 @@
 			)
 		)
 		(pin "AUX_VCM" input
-			(at 116.84 101.6 0)
+			(at 123.19 97.79 0)
 			(uuid "a4c5c0de-c64a-40de-ae03-1b2ad720bac5")
 			(effects
 				(font

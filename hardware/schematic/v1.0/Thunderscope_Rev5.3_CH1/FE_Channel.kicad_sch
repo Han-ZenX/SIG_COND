@@ -11395,6 +11395,12 @@
 		(uuid "0728b4be-ed89-4037-b4cd-f37cbe270248")
 	)
 	(junction
+		(at 294.64 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2798bf-86db-4a5b-b66d-7772bfeec1c6")
+	)
+	(junction
 		(at 149.86 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11411,12 +11417,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b3b3cd3-6528-4e89-9973-d6f28e07affc")
-	)
-	(junction
-		(at 309.88 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e6b7cd7-d805-4492-8e69-84082b159b16")
 	)
 	(junction
 		(at 233.68 190.5)
@@ -11773,6 +11773,12 @@
 		(uuid "a17bbd9b-288e-469f-93a8-18eb9bd206aa")
 	)
 	(junction
+		(at 309.88 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aabd4176-f9d5-4607-8e4a-01e583773ddf")
+	)
+	(junction
 		(at 317.5 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11873,6 +11879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad873d7-c56b-4c6d-8b34-a21b5f729689")
+	)
+	(junction
+		(at 302.26 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8362a6-218c-4c69-a551-74cbec02d6f3")
 	)
 	(junction
 		(at 101.6 38.1)
@@ -12111,6 +12123,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 152.4) (xy 302.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebf34e3-0458-40cf-ab7e-60aa3da3c45e")
+	)
+	(wire
+		(pts
 			(xy 210.82 193.04) (xy 210.82 187.96)
 		)
 		(stroke
@@ -12241,7 +12263,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 157.48) (xy 320.04 157.48)
+			(xy 292.1 157.48) (xy 302.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12830,6 +12852,16 @@
 		)
 		(uuid "3facc7ad-4a2c-4841-9f9d-360d63f80a2c")
 	)
+	(wire
+		(pts
+			(xy 309.88 160.02) (xy 320.04 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402cb8e1-f683-4e45-849e-f7a0a6573b17")
+	)
 	(polyline
 		(pts
 			(xy 12.7 127) (xy 406.4 127)
@@ -12839,6 +12871,16 @@
 			(type dash)
 		)
 		(uuid "409b0e7f-4e24-48cd-8859-79ab78a1ca35")
+	)
+	(wire
+		(pts
+			(xy 294.64 154.94) (xy 317.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b1b8e3-aaba-4722-95c9-595c2f14ff73")
 	)
 	(wire
 		(pts
@@ -13442,7 +13484,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 154.94) (xy 309.88 154.94)
+			(xy 292.1 154.94) (xy 294.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13873,6 +13915,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 149.86) (xy 309.88 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87de34dc-965b-426a-8757-e0b578512168")
+	)
+	(wire
+		(pts
 			(xy 22.86 73.66) (xy 25.4 73.66)
 		)
 		(stroke
@@ -13890,16 +13942,6 @@
 			(type default)
 		)
 		(uuid "891c772c-58ba-4749-9706-68cb83fcb8db")
-	)
-	(wire
-		(pts
-			(xy 309.88 154.94) (xy 317.5 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892bf371-9d05-46e7-a80c-fb3be27aa6eb")
 	)
 	(wire
 		(pts
@@ -14113,7 +14155,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 160.02) (xy 320.04 160.02)
+			(xy 292.1 160.02) (xy 309.88 160.02)
 		)
 		(stroke
 			(width 0)
@@ -15042,6 +15084,16 @@
 			(type default)
 		)
 		(uuid "e11602ff-d045-4640-896d-dba6975ec4fa")
+	)
+	(wire
+		(pts
+			(xy 302.26 157.48) (xy 320.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e72c59-c11a-461b-bdcf-f0db16fe0e45")
 	)
 	(wire
 		(pts
@@ -18881,7 +18933,7 @@
 	)
 	(hierarchical_label "PGA_CSn"
 		(shape input)
-		(at 304.8 154.94 180)
+		(at 292.1 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18892,7 +18944,7 @@
 	)
 	(hierarchical_label "PGA_SCLK"
 		(shape input)
-		(at 304.8 160.02 180)
+		(at 292.1 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18914,7 +18966,7 @@
 	)
 	(hierarchical_label "PGA_SDIO"
 		(shape input)
-		(at 304.8 157.48 180)
+		(at 292.1 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27551,6 +27603,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:TP PCB 1mm")
+		(at 302.26 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6463f221-af66-432e-a212-b57b02b8ec72")
+		(property "Reference" "TP1016_2"
+			(at 305.248 145.3996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCB"
+			(at 305.308 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_TP_PCB"
+			(at 302.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 302.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 294.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 294.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 294.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 302.26 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" ""
+			(at 302.26 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf891201-930d-4c03-ac66-8b8790178be9")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "TP1016_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Thunderscope_Rev5:RELAY DPDT-NO UD2-4.5NUN-L")
 		(at 175.26 35.56 0)
 		(unit 2)
@@ -33142,6 +33330,142 @@
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
 					(reference "U1009_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thunderscope_Rev5:TP PCB 1mm")
+		(at 309.88 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ca43537-910d-4b6a-9d75-8c6ce673ba4f")
+		(property "Reference" "TP1016_3"
+			(at 312.868 142.8596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PCB"
+			(at 312.928 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Thunderscope_Rev5:GEN_TP_PCB"
+			(at 309.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HOUSE PART NUMBER" ""
+			(at 302.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 302.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 302.26 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 309.88 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Substitutions Policy" ""
+			(at 309.88 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c632f327-50b3-4e61-91ba-595be8748fdf")
+		)
+		(instances
+			(project "Thunderscope_Rev5.3"
+				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09/f35774a1-d397-4f7e-9c64-3142469f9c73"
+					(reference "TP1016_3")
 					(unit 1)
 				)
 			)
@@ -40231,7 +40555,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:TP PCB 1mm")
-		(at 309.88 154.94 90)
+		(at 294.64 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40241,7 +40565,7 @@
 		(dnp no)
 		(uuid "e7b9de83-0a77-4df5-b5c5-f815101272a5")
 		(property "Reference" "TP1016_1"
-			(at 312.868 147.9396 90)
+			(at 297.628 147.9396 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40252,7 +40576,7 @@
 			)
 		)
 		(property "Value" "PCB"
-			(at 312.928 156.21 0)
+			(at 297.688 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40264,7 +40588,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:GEN_TP_PCB"
-			(at 309.88 154.94 0)
+			(at 294.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40275,7 +40599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 154.94 0)
+			(at 294.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40286,7 +40610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 154.94 0)
+			(at 294.64 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40297,7 +40621,7 @@
 			)
 		)
 		(property "HOUSE PART NUMBER" ""
-			(at 302.26 160.02 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40309,7 +40633,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 302.26 160.02 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40321,7 +40645,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 302.26 160.02 0)
+			(at 287.02 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40333,7 +40657,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" ""
-			(at 309.88 154.94 0)
+			(at 294.64 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40343,7 +40667,7 @@
 			)
 		)
 		(property "Substitutions Policy" ""
-			(at 309.88 154.94 90)
+			(at 294.64 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

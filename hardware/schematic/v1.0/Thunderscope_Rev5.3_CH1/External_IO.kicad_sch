@@ -2475,7 +2475,7 @@
 		(uuid "c6a8d1a2-23b2-418e-85e8-68116125254d")
 	)
 	(junction
-		(at 259.08 156.21)
+		(at 229.87 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22caf03b-0f23-4f8e-a9f3-49fa7860f327")
@@ -2499,7 +2499,7 @@
 		(uuid "4c0ff36f-bdfa-4fc1-ae57-36cbb1b3d2ad")
 	)
 	(junction
-		(at 259.08 153.67)
+		(at 229.87 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b2a323-1257-454c-b6e1-a5f7262471d6")
@@ -2511,7 +2511,7 @@
 		(uuid "d3411c1e-da80-4bfd-bdde-29f232dbc0b0")
 	)
 	(junction
-		(at 259.08 158.75)
+		(at 229.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d95821aa-95e2-4204-9582-8da515ef43e2")
@@ -2542,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 128.27) (xy 218.44 128.27)
+			(xy 233.68 123.19) (xy 226.06 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 161.29) (xy 259.08 161.29)
+			(xy 226.06 135.89) (xy 229.87 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 153.67) (xy 259.08 156.21)
+			(xy 229.87 128.27) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 158.75) (xy 259.08 158.75)
+			(xy 226.06 133.35) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 158.75) (xy 259.08 161.29)
+			(xy 229.87 133.35) (xy 229.87 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 153.67) (xy 259.08 153.67)
+			(xy 226.06 128.27) (xy 229.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 146.05) (xy 233.68 146.05)
+			(xy 203.2 123.19) (xy 210.82 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 156.21) (xy 259.08 158.75)
+			(xy 229.87 130.81) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 134.62) (xy 274.32 134.62)
+			(xy 226.06 143.51) (xy 229.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 143.51) (xy 233.68 143.51)
+			(xy 207.01 120.65) (xy 210.82 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 134.62) (xy 233.68 134.62)
+			(xy 229.87 120.65) (xy 226.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2862,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 151.13) (xy 259.08 151.13)
+			(xy 226.06 125.73) (xy 229.87 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 151.13) (xy 259.08 153.67)
+			(xy 229.87 125.73) (xy 229.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2892,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 156.21) (xy 259.08 156.21)
+			(xy 226.06 130.81) (xy 229.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +2923,7 @@
 	)
 	(hierarchical_label "PGA_CSn"
 		(shape output)
-		(at 233.68 158.75 180)
+		(at 210.82 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2934,7 +2934,7 @@
 	)
 	(hierarchical_label "PGA_SCLK"
 		(shape output)
-		(at 233.68 153.67 180)
+		(at 210.82 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2945,7 +2945,7 @@
 	)
 	(hierarchical_label "TERM"
 		(shape output)
-		(at 233.68 166.37 180)
+		(at 210.82 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2967,7 +2967,7 @@
 	)
 	(hierarchical_label "DC_CPL"
 		(shape output)
-		(at 233.68 161.29 180)
+		(at 210.82 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2989,7 +2989,7 @@
 	)
 	(hierarchical_label "TRIM"
 		(shape output)
-		(at 233.68 148.59 180)
+		(at 210.82 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3000,7 +3000,7 @@
 	)
 	(hierarchical_label "PGA_SDIO"
 		(shape output)
-		(at 233.68 156.21 180)
+		(at 210.82 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3011,7 +3011,7 @@
 	)
 	(hierarchical_label "ATTEN"
 		(shape output)
-		(at 233.68 163.83 180)
+		(at 210.82 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,7 +3033,7 @@
 	)
 	(hierarchical_label "VCM"
 		(shape output)
-		(at 233.68 151.13 180)
+		(at 210.82 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4136,7 +4136,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:+VBIAS_BAR")
-		(at 201.93 128.27 270)
+		(at 233.68 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4146,7 +4146,7 @@
 		(dnp no)
 		(uuid "4d43d76e-fcc8-4534-8c60-c00ae82305d8")
 		(property "Reference" "#PWR0298"
-			(at 201.93 128.27 0)
+			(at 233.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4157,7 @@
 			)
 		)
 		(property "Value" "+VBIAS"
-			(at 198.12 128.27 0)
+			(at 237.49 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 128.27 0)
+			(at 233.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 128.27 0)
+			(at 233.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+VBIAS'"
-			(at 201.93 128.27 0)
+			(at 233.68 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4970,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:+5V_BAR")
-		(at 229.87 143.51 270)
+		(at 207.01 120.65 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4980,7 +4980,7 @@
 		(dnp no)
 		(uuid "6d45e149-cf73-4b68-b3a9-df6cfa7ca235")
 		(property "Reference" "#PWR0319"
-			(at 229.87 143.51 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +4991,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 143.51 0)
+			(at 203.2 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 143.51 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 143.51 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+5V'"
-			(at 229.87 143.51 0)
+			(at 207.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5673,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:+VUSB")
-		(at 229.87 134.62 270)
+		(at 229.87 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5683,7 +5683,7 @@
 		(dnp no)
 		(uuid "9e8a0afe-0c19-4101-8740-ec57ccdf199e")
 		(property "Reference" "#PWR0289"
-			(at 229.87 134.62 0)
+			(at 229.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5694,7 +5694,7 @@
 			)
 		)
 		(property "Value" "+VUSB"
-			(at 226.06 134.62 0)
+			(at 233.68 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5704,7 +5704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 134.62 0)
+			(at 229.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 134.62 0)
+			(at 229.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,7 +5726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '+VUSB'"
-			(at 229.87 134.62 0)
+			(at 229.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6140,7 +6140,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:-5V_BAR")
-		(at 226.06 146.05 270)
+		(at 203.2 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6150,7 +6150,7 @@
 		(dnp no)
 		(uuid "c0a0b3a2-2a52-4c88-b4d1-dbc833b07a24")
 		(property "Reference" "#PWR0311"
-			(at 226.06 146.05 0)
+			(at 203.2 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,7 +6161,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 222.25 146.05 0)
+			(at 199.39 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6171,7 +6171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 146.05 0)
+			(at 203.2 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 146.05 0)
+			(at 203.2 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '-5V'"
-			(at 226.06 146.05 0)
+			(at 203.2 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:GND")
-		(at 259.08 156.21 90)
+		(at 229.87 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6227,7 +6227,7 @@
 		(dnp no)
 		(uuid "c7b653fb-89b1-48e8-8eae-e91dbcff93bd")
 		(property "Reference" "#PWR0159"
-			(at 265.43 156.21 0)
+			(at 236.22 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +6238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 156.21 0)
+			(at 233.68 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6248,7 +6248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 156.21 0)
+			(at 229.87 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 156.21 0)
+			(at 229.87 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6270,7 +6270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 156.21 0)
+			(at 229.87 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6557,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:-VBIAS_BAR")
-		(at 274.32 134.62 90)
+		(at 229.87 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6567,7 +6567,7 @@
 		(dnp no)
 		(uuid "d6ddefa6-5ba9-4109-b61d-5897658607c6")
 		(property "Reference" "#PWR0306"
-			(at 274.32 134.62 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,7 +6578,7 @@
 			)
 		)
 		(property "Value" "-VBIAS"
-			(at 278.13 134.62 0)
+			(at 233.68 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6588,7 +6588,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 134.62 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6599,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 134.62 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6610,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name '-VBIAS'"
-			(at 274.32 134.62 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6634,7 +6634,7 @@
 	)
 	(symbol
 		(lib_id "Thunderscope_Rev5:HX_JN1_27-2X10_WZ_H4_9")
-		(at 241.3 154.94 0)
+		(at 218.44 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6644,7 +6644,7 @@
 		(dnp no)
 		(uuid "d9c2d482-4ca1-4614-991b-9a112f516f7a")
 		(property "Reference" "CN1"
-			(at 241.046 173.99 0)
+			(at 218.186 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6654,7 +6654,7 @@
 			)
 		)
 		(property "Value" "HX_JN1_27-2X10_WZ_H4_9"
-			(at 241.046 176.53 0)
+			(at 218.186 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6664,7 +6664,7 @@
 			)
 		)
 		(property "Footprint" "Thunderscope_Rev5:HX_JN1_27-2X10_WZ_H4_9"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +6675,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250227/D28B851ECDD55C8D36062794F94EDD69.pdf"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6686,7 +6686,7 @@
 			)
 		)
 		(property "Description" "弯插,P=1.27mm IDC Connectors ROHS"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6697,7 +6697,7 @@
 			)
 		)
 		(property "LCSC" "C46061778"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +6708,7 @@
 			)
 		)
 		(property "Manufacturer" "hanxia"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6719,7 +6719,7 @@
 			)
 		)
 		(property "Manufacturer Part" "HX JN1.27-2x10 WZ H4.9"
-			(at 241.3 154.94 0)
+			(at 218.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

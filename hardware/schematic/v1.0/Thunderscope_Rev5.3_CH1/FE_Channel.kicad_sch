@@ -18920,7 +18920,7 @@
 		)
 		(uuid "2b64be69-7e9c-4fbe-890a-b146d2c0cd90")
 	)
-	(hierarchical_label "VCM"
+	(hierarchical_label "AUX_VCM"
 		(shape input)
 		(at 368.3 187.96 0)
 		(effects

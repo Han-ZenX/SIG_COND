@@ -840,6 +840,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0c0d66-b398-4b5b-8400-4f40e5c617af")
+	)
+	(wire
+		(pts
 			(xy 116.84 125.73) (xy 147.32 125.73)
 		)
 		(stroke
@@ -897,6 +907,16 @@
 			(justify right bottom)
 		)
 		(uuid "6f049e27-d4e7-4328-8985-4303b744fae5")
+	)
+	(label "AUX_VCM"
+		(at 129.54 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a80f52c-029f-4eed-a41f-806a22512115")
 	)
 	(label "VCM"
 		(at 129.54 99.06 180)
@@ -1126,6 +1146,16 @@
 				(justify left)
 			)
 		)
+		(pin "AUX_VCM" output
+			(at 147.32 101.6 180)
+			(uuid "8c223a06-2ecd-458e-a24f-35a83e6522d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Thunderscope_Rev5.3"
 				(path "/031d3e2c-42e0-4016-8c32-579d45c83e09"
@@ -1286,6 +1316,16 @@
 		(pin "AUX_N" output
 			(at 116.84 95.25 0)
 			(uuid "ff524d51-2087-4337-9a0c-f58cd01a686b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_VCM" input
+			(at 116.84 101.6 0)
+			(uuid "a4c5c0de-c64a-40de-ae03-1b2ad720bac5")
 			(effects
 				(font
 					(size 1.27 1.27)

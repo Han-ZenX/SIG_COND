@@ -1,19 +1,31 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
-    "auto_track_width": true,
-    "hidden_netclasses": [],
-    "hidden_nets": [],
+    "auto_track_width": false,
+    "hidden_netclasses": [
+      "LVDS",
+      "PWR"
+    ],
+    "hidden_nets": [
+      "+3V3_PGA",
+      "+5V",
+      "GND",
+      "-5V",
+      "/CH1/+VPGA",
+      "-VBIAS",
+      "+VBIAS",
+      "+VUSB"
+    ],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.699999988079071
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -32,7 +44,6 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "footprint_anchors",
       "ratsnest",
       "grid",
       "footprints_front",
@@ -46,28 +57,29 @@
       "pads",
       "zones",
       "drc_warnings",
-      "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00000008_8208a7ff",
     "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
+    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SIG_COND.kicad_prl",
+    "filename": "Thunderscope_Rev5.3.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
+      false,
+      false,
+      false,
+      false,
       false,
       false,
       false,
@@ -89,19 +101,27 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11,
+      12,
+      13
     ],
     "col_widths": [
-      174,
-      159,
-      100,
-      63,
-      100,
-      100,
-      100,
-      63,
-      100,
-      100
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      93,
+      91,
+      91,
+      91,
+      570
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -116,7 +136,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "Release_For_PCBA.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
